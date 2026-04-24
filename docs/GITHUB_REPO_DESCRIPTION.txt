@@ -1,0 +1,1 @@
+Anonymous verification package for technology-security event-logic benchmark, fixed public subset manifests, paper-aligned result artifacts, metric definitions, and benchmark-local baseline adapters.

@@ -1,0 +1,98 @@
+path_id,query_id,case_id,path_event_sequence,path_relation_sequence,path_type,path_score_human,is_compact_path,covers_key_event,covers_turning_point,causal_consistency,temporal_consistency,path_note,split
+HW_P01,Q_HW_01,CASE_HUAWEI_001,HW_E01,-,gold,0.95,True,True,True,high,high,Single-node path for immediate risk from the initial Entity List designation.,dev
+HW_P02,Q_HW_02,CASE_HUAWEI_001,HW_E01->HW_E02,HW_R01,gold,0.93,True,True,True,high,high,Explains why a carve-out was created immediately after the Entity List action.,train
+HW_P03,Q_HW_03,CASE_HUAWEI_001,HW_E02->HW_E03->HW_E04->HW_E05->HW_E06->HW_E07->HW_E10,HW_R02->HW_R03->HW_R04->HW_R05->HW_R06->HW_R08,gold,0.9,False,False,False,medium,high,Timeline path showing the TGL issuance-extension-removal cycle.,dev
+HW_P04,Q_HW_04,CASE_HUAWEI_001,HW_E01->HW_E08,HW_R07,gold,0.94,True,True,True,high,high,Shows escalation from the original Entity List designation to the Huawei-specific FDP rule.,train
+HW_P05,Q_HW_05,CASE_HUAWEI_001,HW_E08->HW_E11,HW_R09,gold,0.94,True,True,True,high,high,Captures how the August 2020 rule tightened the May 2020 Huawei FDP rule.,test
+HW_P06,Q_HW_06,CASE_HUAWEI_001,HW_E11->HW_E14,HW_R11,gold,0.96,True,True,False,high,high,Links Huawei FDP tightening to a later third-party enforcement action.,train
+HW_P07,Q_HW_07,CASE_HUAWEI_001,HW_E12->HW_E13,HW_R12,gold,0.95,True,True,True,high,high,Captures the FCC Covered List to authorization-ban escalation.,train
+HW_P08,Q_HW_08,CASE_HUAWEI_001,HW_E07->HW_E10,HW_R08,silver,0.82,True,True,False,medium,high,Counterfactual-oriented path on TGL continuation versus removal.,train
+SM_P01,Q_SM_01,CASE_SMIC_001,SM_E01,-,gold,0.95,True,True,True,high,high,Single-node path for the immediate consequence of the SMIC Entity List action.,test
+SM_P02,Q_SM_02,CASE_SMIC_001,SM_E01->SM_E02,SM_R01,silver,0.8,True,True,True,medium,high,Shows the shift from firm-specific restrictions to sector-wide semiconductor controls.,dev
+SM_P03,Q_SM_03,CASE_SMIC_001,SM_E01->SM_E02->SM_E04,SM_R01->SM_R02,gold,0.89,True,True,True,high,high,Explains how the 2022 and 2023 rules amplify risk beyond the original SMIC listing.,train
+SM_P04,Q_SM_04,CASE_SMIC_001,SM_E02->SM_E04->SM_E05,SM_R02->SM_R03,gold,0.9,False,True,False,medium,high,Shows the two-branch October 2023 update package built on the 2022 framework.,train
+SM_P05,Q_SM_05,CASE_SMIC_001,SM_E04->SM_E06,SM_R04,gold,0.91,True,True,False,high,high,Shows why even a correction rule matters to compliance implementation.,train
+SM_P06,Q_SM_06,CASE_SMIC_001,SM_E04->SM_E07,SM_R06,silver,0.78,True,True,True,medium,high,Links 2023 semiconductor-manufacturing controls to the December 2024 scale-up.,train
+SM_P07,Q_SM_07,CASE_SMIC_001,SM_E01->SM_E02->SM_E04->SM_E07,SM_R01->SM_R02->SM_R06,silver,0.76,False,True,True,medium,high,Counterfactual path about whether ecosystem-wide risk would be lower without later sector rules.,dev
+SM_P08,Q_SM_08,CASE_SMIC_001,SM_E01->SM_E02->SM_E04->SM_E05->SM_E07,SM_R01->SM_R02->SM_R03->SM_R07,gold,0.88,False,True,True,high,high,Captures the progression from single-company restriction to ecosystem-wide tightening.,train
+ADV_P01,Q_ADV_01,CASE_ADVCTRL_001,ADV_E01,-,gold,0.95,True,True,True,high,high,Single-node path for the October 2022 control-architecture shift.,train
+ADV_P02,Q_ADV_02,CASE_ADVCTRL_001,ADV_E02,-,gold,0.94,True,False,True,high,high,Single-node path for why UVL risk arose in October 2022.,train
+ADV_P03,Q_ADV_03,CASE_ADVCTRL_001,ADV_E02->ADV_E03,ADV_R02,gold,0.96,True,True,True,high,high,Shows escalation from UVL verification problems to Entity List restrictions.,train
+ADV_P04,Q_ADV_04,CASE_ADVCTRL_001,ADV_E01->ADV_E04->ADV_E05,ADV_R04->ADV_R05,gold,0.89,False,True,False,medium,high,Shows how the October 2023 package updated the October 2022 control framework.,train
+ADV_P05,Q_ADV_05,CASE_ADVCTRL_001,ADV_E05->ADV_E06,ADV_R07,gold,0.9,True,True,False,high,high,Explains why April 2024 clarifications matter to ongoing compliance risk.,train
+ADV_P06,Q_ADV_06,CASE_ADVCTRL_001,ADV_E05->ADV_E07,ADV_R08,silver,0.77,True,True,False,medium,high,Links export-control logic to federal procurement restrictions.,train
+ADV_P07,Q_ADV_07,CASE_ADVCTRL_001,ADV_E03->ADV_E08,ADV_R12,gold,0.92,True,True,True,high,high,Shows ecosystem-level escalation from 2022 Entity List action to the 2024 140-entity wave.,train
+ADV_P08,Q_ADV_08,CASE_ADVCTRL_001,ADV_E02->ADV_E03,ADV_R02,silver,0.84,True,True,True,medium,high,Counterfactual path asking whether risk would be lower without UVL-to-Entity-List escalation.,train
+ADV_P09,Q_ADV_09,CASE_ADVCTRL_001,ADV_E08->ADV_E09,ADV_R14,silver,0.91,True,True,False,high,high,Shows that the December 2024 package combined entity-list growth with a companion technical-control rule.,train
+ADV_P10,Q_ADV_10,CASE_ADVCTRL_001,ADV_E05->ADV_E09,ADV_R13,silver,0.9,True,True,False,high,high,Links the October 2023 advanced-computing architecture to the December 2024 HBM/FDP refinements.,dev
+YMTC_P01,Q_YM_01,CASE_YMTC_001,YMTC_E01,-,gold,0.94,True,True,True,high,high,Single-node path for the initial UVL-based verification-risk signal.,dev
+YMTC_P02,Q_YM_02,CASE_YMTC_001,YMTC_E01->YMTC_E02,YMTC_R01,gold,0.97,True,True,True,high,high,Direct escalation from UVL status to the Entity List.,train
+YMTC_P03,Q_YM_03,CASE_YMTC_001,YMTC_E03,-,gold,0.9,True,True,False,medium,high,Single-node path for the December 2024 HBM and advanced-node memory tightening.,test
+YMTC_P04,Q_YM_04,CASE_YMTC_001,YMTC_E04,-,gold,0.95,True,True,True,high,high,Single-node path capturing the proposed procurement-side consequence for YMTC-linked semiconductors.,train
+YMTC_P05,Q_YM_05,CASE_YMTC_001,YMTC_E01->YMTC_E02->YMTC_E04,YMTC_R01->YMTC_R04,gold,0.96,True,True,True,high,high,End-to-end path from verification risk to Entity List escalation to procurement-side exclusion risk.,train
+COV_P01,Q_COV_01,CASE_COVSEM_001,COV_E01,-,gold,0.93,True,True,True,high,high,Single-node path for the ANPR introducing future procurement risk.,train
+COV_P02,Q_COV_02,CASE_COVSEM_001,COV_E01->COV_E03,COV_R02,gold,0.95,True,True,True,high,high,Shows escalation from exploratory ANPR to proposed FAR prohibition.,train
+COV_P03,Q_COV_03,CASE_COVSEM_001,COV_E03->COV_E04,COV_R03,gold,0.97,True,True,True,high,high,Captures how the proposed rule operationalizes the prohibition by naming specific covered sources.,train
+COV_P04,Q_COV_04,CASE_COVSEM_001,COV_E03->COV_E05,COV_R04,gold,0.97,True,True,False,high,high,Shows that the procurement prohibition is paired with reporting and disclosure duties.,train
+COV_P05,Q_COV_05,CASE_COVSEM_001,COV_E01->COV_E03->COV_E04->COV_E05,COV_R02->COV_R03->COV_R05,gold,0.96,False,True,True,high,high,Full procurement-governance path from rulemaking signal to named-source exclusion and compliance obligations.,dev
+ADV_P11,Q_ADV_11,CASE_ADVCTRL_001,ADV_E09->ADV_E10,ADV_R10,gold,0.96,True,True,True,high,high,Links the December 2024 HBM/FDP refinements to the January 2025 AI Diffusion framework.,test
+ADV_P12,Q_ADV_12,CASE_ADVCTRL_001,ADV_E09->ADV_E11,ADV_R11,gold,0.97,True,True,False,high,high,Directly captures why the due-diligence IFR followed the December 2024 technical package.,train
+ADV_P13,Q_ADV_13,CASE_ADVCTRL_001,ADV_E09->ADV_E12,ADV_R15,gold,0.95,True,True,True,high,high,Shows the move from ecosystem-wide tightening to targeted foundry-side enforcement with Huawei diversion risk.,test
+ADV_P14,Q_ADV_14,CASE_ADVCTRL_001,ADV_E11->ADV_E13,ADV_R13,gold,0.98,True,True,False,high,high,Captures the direct corrective relationship between the January IFR and the February correction.,dev
+ADV_P15,Q_ADV_15,CASE_ADVCTRL_001,ADV_E10->ADV_E14,ADV_R14,silver,0.82,True,True,True,medium,high,Represents the later policy recalibration as a constrained extension of the broader control architecture.,train
+YMTC_P06,Q_YM_06,CASE_YMTC_001,YMTC_E03->YMTC_E05,YMTC_R05,gold,0.94,True,True,False,high,high,Shows how December 2024 HBM tightening becomes part of the January 2025 AI-diffusion narrative.,train
+YMTC_P07,Q_YM_07,CASE_YMTC_001,YMTC_E04->YMTC_E06,YMTC_R06,gold,0.97,True,True,False,high,high,Captures the move from named covered source to reporting/disclosure obligations.,dev
+YMTC_P08,Q_YM_08,CASE_YMTC_001,YMTC_E01->YMTC_E02->YMTC_E04->YMTC_E06,YMTC_R08->YMTC_R06,silver,0.84,False,True,True,high,high,Counterfactual-style path showing progression from verification risk to procurement and disclosure risk.,train
+FND_P01,Q_FND_01,CASE_FOUNDRY_001,FND_E01->FND_E03,FND_R02,gold,0.96,True,True,False,high,high,Direct cause-tracing path from December 2024 technical tightening to January 2025 foundry diligence.,train
+FND_P02,Q_FND_02,CASE_FOUNDRY_001,FND_E04,SINGLE_EVENT,gold,0.97,True,True,True,high,high,Single-event path because the question asks about the specific content of the Foundry Entity List action.,train
+FND_P03,Q_FND_03,CASE_FOUNDRY_001,FND_E02->FND_E03,FND_R06,gold,0.92,True,True,False,medium,high,Shows the outer AI diffusion architecture feeding into inner foundry diligence obligations.,train
+FND_P04,Q_FND_04,CASE_FOUNDRY_001,FND_E03->FND_E05,FND_R05,gold,0.98,True,True,False,high,high,Captures the direct corrective relationship between the January due-diligence IFR and the February 2025 correction.,dev
+FND_P05,Q_FND_05,CASE_FOUNDRY_001,FND_E03->FND_E04->FND_E06,FND_R03->FND_R08,silver,0.8,False,True,True,medium,high,Represents the later case-by-case review as a recalibration that still preserves foundry-capacity and diversion concerns.,test
+CX_P01,Q_CX_01,CASE_CXMT_001,CX_E02,-,gold,0.96,True,True,False,high,high,Single-event path because the question asks about the strategic meaning of the HBM-control event itself.,dev
+CX_P02,Q_CX_02,CASE_CXMT_001,CX_E03->CX_E05,CX_R03,silver,0.83,True,True,True,medium,high,Uses the DoD designation as an upstream screening signal feeding later procurement naming.,train
+CX_P03,Q_CX_03,CASE_CXMT_001,CX_E01->CX_E05,CX_R01,gold,0.95,True,True,True,high,high,Shows escalation from general procurement-rule architecture to explicit naming of CXMT.,train
+CX_P04,Q_CX_04,CASE_CXMT_001,CX_E02->CX_E03->CX_E05,CX_R06->CX_R03,silver,0.84,False,True,True,high,high,Captures the shift from memory-control salience and security screening to named-source procurement exclusion.,train
+CX_P05,Q_CX_05,CASE_CXMT_001,CX_E05->CX_E06,CX_R05,gold,0.98,True,True,False,high,high,Represents the direct move from named covered source to reporting/disclosure obligation.,train
+CX_P06,Q_CX_06,CASE_CXMT_001,CX_E03->CX_E05->CX_E06,CX_R03->CX_R05,silver,0.82,False,True,True,medium,high,Counterfactual-style path showing how explicit naming changes downstream procurement and compliance risk.,test
+COV_P06,Q_COV_06,CASE_COVSEM_001,COV_E06->COV_E04,COV_R07,silver,0.8,True,False,True,medium,high,Treats the DoD designation as an upstream federal screening signal for later procurement naming.,train
+COV_P07,Q_COV_07,CASE_COVSEM_001,COV_E04->COV_E07,COV_R08,gold,0.95,True,True,False,high,high,Captures how explicit naming triggers the need for phased exceptions and operational transition rules.,dev
+COV_P08,Q_COV_08,CASE_COVSEM_001,COV_E05->COV_E07,COV_R09,silver,0.84,True,False,False,medium,high,Shows that transition exceptions coexist with reporting/disclosure duties and do not remove compliance burden.,test
+SM_P09,Q_SM_09,CASE_SMIC_001,SM_E01->SM_E08,SM_R11,gold,0.97,True,True,True,high,high,Directly traces later diversion enforcement back to the original SMIC listing.,test
+SM_P10,Q_SM_10,CASE_SMIC_001,SM_E07->SM_E09,SM_R15,silver,0.82,True,True,False,medium,high,Represents the broader ecosystem tightening that helps explain the NetForward anti-circumvention action.,train
+SM_P11,Q_SM_11,CASE_SMIC_001,SM_E04->SM_E08,SM_R12,gold,0.9,True,False,True,high,high,Connects sectoral semiconductor-manufacturing controls to later equipment-diversion enforcement for SMIC fabs.,test
+SM_P12,Q_SM_12,CASE_SMIC_001,SM_E01->SM_E08->SM_E09,SM_R11->SM_R14,silver,0.79,False,True,True,medium,high,Counterfactual-style path showing progression from direct listing to networked anti-diversion enforcement.,train
+ADV_P16,Q_ADV_16,CASE_ADVCTRL_001,ADV_E12->ADV_E15,ADV_R17,gold,0.95,True,True,False,high,high,Represents the continuity between the January 2025 foundry Entity List wave and September 2025 follow-on enforcement.,dev
+ADV_P17,Q_ADV_17,CASE_ADVCTRL_001,ADV_E11->ADV_E15,ADV_R16,gold,0.92,True,False,False,high,high,Shows enforcement layering from due-diligence measures to later actor-specific anti-diversion actions.,test
+ADV_P18,Q_ADV_18,CASE_ADVCTRL_001,ADV_E11->ADV_E15,ADV_R16,silver,0.81,True,False,False,medium,high,Treats the September 2025 action as evidence that refined rules still needed follow-on entity-level enforcement.,dev
+FND_P06,Q_FND_06,CASE_FOUNDRY_001,FND_E04->FND_E07,FND_R09,gold,0.95,True,True,True,high,high,Traces later intermediary-procurement enforcement back to the January 2025 foundry diversion wave.,train
+FND_P07,Q_FND_07,CASE_FOUNDRY_001,FND_E04->FND_E08,FND_R10,gold,0.94,True,True,False,high,high,Shows the broadening from Sophgo/Huawei diversion logic to a more general circumvention network.,train
+FND_P08,Q_FND_08,CASE_FOUNDRY_001,FND_E03->FND_E07,FND_R11,gold,0.89,True,False,True,medium,high,Connects foundry due diligence obligations to later enforcement against unauthorized procurement for listed fabs.,dev
+FND_P09,Q_FND_09,CASE_FOUNDRY_001,FND_E04->FND_E07->FND_E08,FND_R09->FND_R10,silver,0.8,False,True,True,medium,high,Counterfactual-style path showing how later actions broadened the enforcement perimeter beyond the initial foundry-linked entities.,test
+VEU_P01,Q_VEU_01,CASE_VEU_001,VEU_E01,-,gold,0.95,True,True,False,high,high,Single-node path for the immediate access benefit created by Data Center VEU.,dev
+VEU_P02,Q_VEU_02,CASE_VEU_001,VEU_E01 -> VEU_E02,VEU_R01,gold,0.9,True,True,False,high,high,Shows escalation from facilitation to differentiated frontier-compute control.,train
+VEU_P03,Q_VEU_03,CASE_VEU_001,VEU_E02 -> VEU_E03,VEU_R02,gold,0.92,True,True,False,high,high,Connects AI Diffusion tightening to foundry/OSAT due-diligence duties.,train
+VEU_P04,Q_VEU_04,CASE_VEU_001,VEU_E01 -> VEU_E04,VEU_R05,gold,0.97,True,True,True,high,high,Two-step reversal from facilitation to explicit revocation.,train
+VEU_P05,Q_VEU_05,CASE_VEU_001,VEU_E03 -> VEU_E04,VEU_R03,gold,0.94,True,True,True,high,high,Explains the compliance effect of VEU revocation via prior due-diligence tightening.,test
+VEU_P06,Q_VEU_06,CASE_VEU_001,VEU_E04 -> VEU_E05,VEU_R04,gold,0.84,True,True,True,high,high,Shows why recalibration did not amount to restoring VEU trust.,train
+VEU_P07,Q_VEU_07,CASE_VEU_001,VEU_E04 -> VEU_E05,VEU_R04,silver,0.74,True,True,True,medium,high,Counterfactual path: review recalibration is narrower than trust restoration.,test
+VEU_P08,Q_VEU_08,CASE_VEU_001,VEU_E01 -> VEU_E04,VEU_R05,gold,0.96,True,True,True,high,high,Most compact path from facilitation to distrust.,dev
+VEU_P09,Q_VEU_09,CASE_VEU_001,VEU_E04,-,silver,0.6,True,True,True,medium,high,Single-node evidence supports named revocations but not universal claims about all PRC fabs.,train
+EL25_P01,Q_EL25_01,CASE_EL25_001,EL25_E01,-,gold,0.94,True,True,False,high,high,Single-node start of 2025 Entity List tightening.,train
+EL25_P02,Q_EL25_02,CASE_EL25_001,EL25_E01 -> EL25_E02,EL25_R01,gold,0.88,True,True,False,high,high,Same-day paired January actions.,dev
+EL25_P03,Q_EL25_03,CASE_EL25_001,EL25_E03,-,gold,0.97,True,True,True,high,high,Mass-addition event is sufficient to answer the question.,train
+EL25_P04,Q_EL25_04,CASE_EL25_001,EL25_E03 -> EL25_E04,EL25_R04,gold,0.95,True,True,True,high,high,Connects broad expansion to explicit anti-diversion enforcement tied to SMIC-listed fabs.,test
+EL25_P05,Q_EL25_05,CASE_EL25_001,EL25_E04 -> EL25_E05,EL25_R05,gold,0.92,True,True,True,high,high,Shows widening from diversion enforcement to geographic circumvention perimeter.,train
+EL25_P06,Q_EL25_06,CASE_EL25_001,EL25_E01 -> EL25_E03 -> EL25_E04,EL25_R03 -> EL25_R04,gold,0.94,False,True,True,high,high,Compact but multi-step path from early expansion to explicit anti-diversion enforcement.,train
+EL25_P07,Q_EL25_07,CASE_EL25_001,EL25_E01 -> EL25_E04 -> EL25_E05,EL25_R01 -> EL25_R05,silver,0.72,False,True,True,medium,high,Counterfactual path showing later escalation remains visible even without the March mass-addition step.,test
+EL25_P08,Q_EL25_08,CASE_EL25_001,EL25_E04,-,gold,0.96,True,True,True,high,high,Single-node turning-point path.,train
+EL25_P09,Q_EL25_09,CASE_EL25_001,EL25_E04 -> EL25_E05,EL25_R05,gold,0.9,True,True,False,high,high,"Shows widening to China, Turkey, and UAE.",train
+EL25_P10,Q_EL25_10,CASE_EL25_001,EL25_E03 -> EL25_E04 -> EL25_E05,EL25_R04 -> EL25_R05,gold,0.93,False,True,True,high,high,Path showing shift from domestic-list growth to transnational anti-circumvention enforcement.,dev
+IMP_P01,Q_IMP_01,CASE_IMPSEC_001,IMP_E01,-,gold,0.92,True,True,False,high,high,Single-node path for the EO’s strategic objective.,train
+IMP_P02,Q_IMP_02,CASE_IMPSEC_001,IMP_E02,-,gold,0.99,True,True,True,high,high,Single-node turning-point path for the formal section 232 finding.,train
+IMP_P03,Q_IMP_03,CASE_IMPSEC_001,IMP_E02 -> IMP_E03,IMP_R02,gold,0.97,True,True,True,high,high,Direct finding-to-plan path inside the same proclamation.,train
+IMP_P04,Q_IMP_04,CASE_IMPSEC_001,IMP_E02 -> IMP_E03 -> IMP_E04,IMP_R02 -> IMP_R03,gold,0.9,False,True,True,high,high,Shows how import-security logic feeds procurement restrictions.,test
+IMP_P05,Q_IMP_05,CASE_IMPSEC_001,IMP_E04 -> IMP_E05,IMP_R04,gold,0.95,True,True,False,high,high,Single procurement architecture path to subcontractor duties.,dev
+IMP_P06,Q_IMP_06,CASE_IMPSEC_001,IMP_E02 -> IMP_E04,IMP_R06,silver,0.7,True,True,True,medium,high,Counterfactual path: procurement logic weakens without the section 232 finding but does not disappear entirely.,dev
+IMP_P07,Q_IMP_07,CASE_IMPSEC_001,IMP_E01 -> IMP_E02,IMP_R01,gold,0.88,True,True,True,high,high,Two-step path from ambition to formal security diagnosis.,train
+IMP_P08,Q_IMP_08,CASE_IMPSEC_001,IMP_E01 -> IMP_E02 -> IMP_E03 -> IMP_E05,IMP_R01 -> IMP_R02 -> IMP_R08,gold,0.91,False,True,True,high,high,Compact explanatory path from industrial goal to distributed contractor compliance.,test
+IMP_P09,Q_IMP_09,CASE_IMPSEC_001,IMP_E02 -> IMP_E04,IMP_R06,gold,0.84,True,True,False,high,high,Distinguishes the national-security finding from later procurement implementation.,train

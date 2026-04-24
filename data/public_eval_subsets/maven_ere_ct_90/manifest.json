@@ -1,0 +1,2124 @@
+[
+  {
+    "doc_id": "1df64c50698e2a592fd5a0ddf5bebd14",
+    "title": "Summernats",
+    "mode": "mixed",
+    "events": 9,
+    "temp": 8,
+    "causal": 1,
+    "sub": 2,
+    "src": "EVENT_3ed34082cfe9d471e2ffe9c2dcdb2b54",
+    "dst": "TIME_224156f969dc45e9346df541acfe8df7",
+    "gold_path": [
+      "EVENT_3ed34082cfe9d471e2ffe9c2dcdb2b54",
+      "TIME_4e3b483eb629b2d2bf3221c5cd842de7",
+      "TIME_224156f969dc45e9346df541acfe8df7"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE"
+    ],
+    "score": 12.0759,
+    "split": "train"
+  },
+  {
+    "doc_id": "487206ddb9bbde9b6a425928165efc49",
+    "title": "War in Darfur",
+    "mode": "causal",
+    "events": 39,
+    "temp": 162,
+    "causal": 22,
+    "sub": 3,
+    "src": "EVENT_ba53331915893a9bc1f997ae0a0fdc2b",
+    "dst": "EVENT_242ca9b152b237373ca10699311784a7",
+    "gold_path": [
+      "EVENT_ba53331915893a9bc1f997ae0a0fdc2b",
+      "EVENT_cb7c6d575aeb0a09a81a4dc1a8d36952",
+      "EVENT_242ca9b152b237373ca10699311784a7"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 23.2269,
+    "split": "train"
+  },
+  {
+    "doc_id": "7208050b6967326da103be3358cc715d",
+    "title": "2010 Sahel famine",
+    "mode": "mixed",
+    "events": 5,
+    "temp": 26,
+    "causal": 0,
+    "sub": 2,
+    "src": "EVENT_b80b404ec51d7320a5e8cd104d80e359",
+    "dst": "EVENT_1d5ac2aec538405526798cde6b19834a",
+    "gold_path": [
+      "EVENT_b80b404ec51d7320a5e8cd104d80e359",
+      "EVENT_f3d030e3ee77fafff07f9d8f9019cb8f",
+      "TIME_235f5439f029119cd034e1f992ff6d40",
+      "EVENT_1d5ac2aec538405526798cde6b19834a"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_CONTAINS",
+      "TEMP_CONTAINS"
+    ],
+    "score": 20.6605,
+    "split": "train"
+  },
+  {
+    "doc_id": "56358c77a9b74a27b5cd78f4a5769fd7",
+    "title": "2000 UEFA European Under-21 Championship",
+    "mode": "mixed",
+    "events": 12,
+    "temp": 50,
+    "causal": 5,
+    "sub": 4,
+    "src": "EVENT_a213b76e01a645d0dbb3e05abbee11ab",
+    "dst": "EVENT_60ff4124cf76107b70c763a7c3672257",
+    "gold_path": [
+      "EVENT_a213b76e01a645d0dbb3e05abbee11ab",
+      "EVENT_1a7b4af24d7018763cf3d3f0e4fed371",
+      "EVENT_8310332b49ff0416cf9661f7555a769a",
+      "EVENT_60ff4124cf76107b70c763a7c3672257"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.3362,
+    "split": "train"
+  },
+  {
+    "doc_id": "d0f47c73ae4f72856216328b1f69ade9",
+    "title": "Operation Ladbroke",
+    "mode": "mixed",
+    "events": 10,
+    "temp": 45,
+    "causal": 3,
+    "sub": 1,
+    "src": "EVENT_9d5bb212b4dae58d61d036946b1e04cd",
+    "dst": "EVENT_628ba16a5c0f9779e3414d77d0eaf558",
+    "gold_path": [
+      "EVENT_9d5bb212b4dae58d61d036946b1e04cd",
+      "EVENT_b8a368cec7c5c4b8b77cd67723bf7d16",
+      "EVENT_fbc36603cfbf7792a9c224af3f0812ac",
+      "EVENT_628ba16a5c0f9779e3414d77d0eaf558"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.256,
+    "split": "train"
+  },
+  {
+    "doc_id": "a94dd976894ac59064ed9749c41f6396",
+    "title": "Ann Arbor Blues and Jazz Festival",
+    "mode": "mixed",
+    "events": 19,
+    "temp": 60,
+    "causal": 0,
+    "sub": 2,
+    "src": "EVENT_bfc7d989efaee37e6c0e568aabda38a6",
+    "dst": "EVENT_b41c53d919213f0811ec12b484b0f8ae",
+    "gold_path": [
+      "EVENT_bfc7d989efaee37e6c0e568aabda38a6",
+      "EVENT_62c6546f9a8dfea3769f8066a71817fa",
+      "EVENT_53f591f32984d6ae3f37427846e85fc2",
+      "EVENT_b41c53d919213f0811ec12b484b0f8ae"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 20.8319,
+    "split": "train"
+  },
+  {
+    "doc_id": "eddfa10c35be8fc1d8afec7af8f706e4",
+    "title": "1999 Oaxaca earthquake",
+    "mode": "mixed",
+    "events": 10,
+    "temp": 36,
+    "causal": 8,
+    "sub": 2,
+    "src": "TIME_230206a3209a62f9d8cb312cb5ee7ba4",
+    "dst": "EVENT_dec2f2de4282c98d3f2946dbea8fe798",
+    "gold_path": [
+      "TIME_230206a3209a62f9d8cb312cb5ee7ba4",
+      "EVENT_5b785a3754519575562c4d3e4190d11d",
+      "EVENT_8b9de2d6d733972b61701e93aa141e7f",
+      "EVENT_dec2f2de4282c98d3f2946dbea8fe798"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "SUBEVENT",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.251,
+    "split": "valid"
+  },
+  {
+    "doc_id": "a73c2f188fa24d9cabd7ccafbc260b10",
+    "title": "June 2008 Midwest floods",
+    "mode": "mixed",
+    "events": 4,
+    "temp": 12,
+    "causal": 3,
+    "sub": 0,
+    "src": "TIME_fc5a99bf146a8d88b23e89bc121b3063",
+    "dst": "TIME_38c42078cd7736f6098fe102fe204d9c",
+    "gold_path": [
+      "TIME_fc5a99bf146a8d88b23e89bc121b3063",
+      "EVENT_e2b57428f948d0baefe86a753b771044",
+      "EVENT_473f0b7da8c1ee0cf1acfed904af0bb8",
+      "TIME_38c42078cd7736f6098fe102fe204d9c"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "CAUSAL_CAUSE",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.0754,
+    "split": "train"
+  },
+  {
+    "doc_id": "e3fdecf2e4bd03dda377159417dc2f16",
+    "title": "2007 Kirkuk bombings",
+    "mode": "mixed",
+    "events": 16,
+    "temp": 38,
+    "causal": 17,
+    "sub": 0,
+    "src": "EVENT_fd065eeb9b13bd6b149e69b2b46e7564",
+    "dst": "EVENT_f0fa3acd7e4f0ac6f195fe77e0a713e2",
+    "gold_path": [
+      "EVENT_fd065eeb9b13bd6b149e69b2b46e7564",
+      "EVENT_eed24918505e966b4aa41b712a5b4a27",
+      "EVENT_b3bf54f04a1522be9216537e0ca04db1",
+      "EVENT_f0fa3acd7e4f0ac6f195fe77e0a713e2"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 21.2766,
+    "split": "valid"
+  },
+  {
+    "doc_id": "1c37b0b5a541be3a7941ccb60b72b3b2",
+    "title": "ShoXC",
+    "mode": "causal",
+    "events": 11,
+    "temp": 32,
+    "causal": 7,
+    "sub": 0,
+    "src": "EVENT_a1088de26a11a12077b44df495cdb9a6",
+    "dst": "EVENT_49e1e376f26502bd9699a5f889866b85",
+    "gold_path": [
+      "EVENT_a1088de26a11a12077b44df495cdb9a6",
+      "EVENT_d09402e433afc5c1619ce98378cc32b2",
+      "EVENT_ddcfd3543f0a913be7cb81d5aa670fe3",
+      "EVENT_49e1e376f26502bd9699a5f889866b85"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.0711,
+    "split": "train"
+  },
+  {
+    "doc_id": "0b3836c5403f7703d40e03c4a53c61a9",
+    "title": "Meteorological history of Hurricane Sandy",
+    "mode": "temporal",
+    "events": 30,
+    "temp": 152,
+    "causal": 5,
+    "sub": 0,
+    "src": "EVENT_7168f100d4da79215437595e5d902d21",
+    "dst": "EVENT_0989634d54832804b572617e81f06b90",
+    "gold_path": [
+      "EVENT_7168f100d4da79215437595e5d902d21",
+      "EVENT_a22ae2ff79f7b841e66f928008e3556a",
+      "TIME_6f773eb45df8a81a13230304943bc6b9",
+      "EVENT_0989634d54832804b572617e81f06b90"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 35.523,
+    "split": "train"
+  },
+  {
+    "doc_id": "70397deb9e9b91b33951b4e146090510",
+    "title": "Jaipur Literature Festival",
+    "mode": "mixed",
+    "events": 12,
+    "temp": 51,
+    "causal": 4,
+    "sub": 0,
+    "src": "EVENT_d4bac7cee2dc2802b4f5b93c69736c0e",
+    "dst": "EVENT_cee163ce3de85dd11dd917242ac71fb3",
+    "gold_path": [
+      "EVENT_d4bac7cee2dc2802b4f5b93c69736c0e",
+      "EVENT_85d07a8d21f0281dc45325bca0756c77",
+      "TIME_71b07fdf590218971c64c22e48b8d285",
+      "EVENT_cee163ce3de85dd11dd917242ac71fb3"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 21.2762,
+    "split": "train"
+  },
+  {
+    "doc_id": "96dc0e6b5c71fa510088bac73b9ae6a6",
+    "title": "Uproar Festival",
+    "mode": "mixed",
+    "events": 10,
+    "temp": 65,
+    "causal": 0,
+    "sub": 0,
+    "src": "EVENT_9edd607cf0f61fdc19e87ca7cd54f4e8",
+    "dst": "EVENT_bfb5bd7d7f854f246e6ef4b65cc38b23",
+    "gold_path": [
+      "EVENT_9edd607cf0f61fdc19e87ca7cd54f4e8",
+      "EVENT_c83a0586133e489fe55f8f7979f63c2e",
+      "TIME_ad3c45c00ec1470e2de96940f93e21bd",
+      "EVENT_bfb5bd7d7f854f246e6ef4b65cc38b23"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 14.826,
+    "split": "train"
+  },
+  {
+    "doc_id": "9d07cd704c7f47916aecfc7d85c6c648",
+    "title": "WE Fest",
+    "mode": "mixed",
+    "events": 12,
+    "temp": 70,
+    "causal": 5,
+    "sub": 0,
+    "src": "EVENT_bea0ba8667a1b9c32e66dfc9987d96b1",
+    "dst": "EVENT_d9dfb2e9de9c2aad8793f82dda0b7289",
+    "gold_path": [
+      "EVENT_bea0ba8667a1b9c32e66dfc9987d96b1",
+      "EVENT_d7fa8d6dde03046f054bf24b508d377e",
+      "EVENT_59e4e334357b992eaa9202dec9d19b57",
+      "EVENT_d9dfb2e9de9c2aad8793f82dda0b7289"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 21.8762,
+    "split": "train"
+  },
+  {
+    "doc_id": "09b75fd8b89331bc9d8c1fef04158ed3",
+    "title": "Hurricane Irene (2005)",
+    "mode": "temporal",
+    "events": 21,
+    "temp": 105,
+    "causal": 3,
+    "sub": 3,
+    "src": "EVENT_6c07a3df3ddac0e46104a05f723695cf",
+    "dst": "EVENT_2d142782e7d1e7447d9f69a354460130",
+    "gold_path": [
+      "EVENT_6c07a3df3ddac0e46104a05f723695cf",
+      "EVENT_c54794a8dba22e9e2c87884b3ef11e2d",
+      "EVENT_3056a40b22393a7cc80714924287f8d3",
+      "EVENT_2d142782e7d1e7447d9f69a354460130"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_OVERLAP"
+    ],
+    "score": 35.0551,
+    "split": "train"
+  },
+  {
+    "doc_id": "d428123a50335b1b0faaccabaeaeb74f",
+    "title": "Away from Home Tour",
+    "mode": "mixed",
+    "events": 19,
+    "temp": 33,
+    "causal": 3,
+    "sub": 5,
+    "src": "EVENT_95d0f599c02087ea34a84a75d0fdc69c",
+    "dst": "EVENT_dac7cb821fac8be9fb7781e45d3b3a38",
+    "gold_path": [
+      "EVENT_95d0f599c02087ea34a84a75d0fdc69c",
+      "EVENT_095fa86f353f07b6d511cefab6838524",
+      "EVENT_c49691e17ece0b5d6756a37b14ae56e7",
+      "EVENT_dac7cb821fac8be9fb7781e45d3b3a38"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "SUBEVENT",
+      "TEMP_BEFORE"
+    ],
+    "score": 27.2569,
+    "split": "train"
+  },
+  {
+    "doc_id": "e359386241e28806ed7b0fae48ab9be3",
+    "title": "1949 Texas hurricane",
+    "mode": "causal",
+    "events": 15,
+    "temp": 60,
+    "causal": 11,
+    "sub": 0,
+    "src": "EVENT_cd8ddf6be869886238304a9f2d2523ef",
+    "dst": "EVENT_ba7123afbda256b9e9abdddc3b84fbd2",
+    "gold_path": [
+      "EVENT_cd8ddf6be869886238304a9f2d2523ef",
+      "EVENT_b1a227788127e74f1dae55bea9acbb16",
+      "EVENT_ba7123afbda256b9e9abdddc3b84fbd2"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1115,
+    "split": "train"
+  },
+  {
+    "doc_id": "6a2fcfa2a22088c907d4d54d7aa24ec5",
+    "title": "Battle of Halys",
+    "mode": "mixed",
+    "events": 14,
+    "temp": 55,
+    "causal": 4,
+    "sub": 1,
+    "src": "EVENT_31360c3f39ad679e325426d82cd3c89f",
+    "dst": "EVENT_d6e013802dd179f74b2500d42748210d",
+    "gold_path": [
+      "EVENT_31360c3f39ad679e325426d82cd3c89f",
+      "EVENT_0e54532235e4817f188abc458da7bd71",
+      "EVENT_71bd99a59bcda1d90e9397d08e2da718",
+      "EVENT_d6e013802dd179f74b2500d42748210d"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "SUBEVENT",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.3114,
+    "split": "train"
+  },
+  {
+    "doc_id": "49f23019231732cc7dc23303a5d1b97b",
+    "title": "Fort Lee Historic Park",
+    "mode": "mixed",
+    "events": 5,
+    "temp": 9,
+    "causal": 0,
+    "sub": 0,
+    "src": "EVENT_062b66c53eb557420e335af0c641b80d",
+    "dst": "EVENT_7070227afbbab478374ccaaa27fff36b",
+    "gold_path": [
+      "EVENT_062b66c53eb557420e335af0c641b80d",
+      "EVENT_0fe8e7c869c14afcaac963a05a27cac7",
+      "EVENT_355ac6b6ef36c137ffc45fe2f29d8a40",
+      "EVENT_7070227afbbab478374ccaaa27fff36b"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 14.5455,
+    "split": "train"
+  },
+  {
+    "doc_id": "101c7ffff23ff7510da8f861bd2e6ecb",
+    "title": "Sasanian conquest of Jerusalem",
+    "mode": "mixed",
+    "events": 11,
+    "temp": 67,
+    "causal": 2,
+    "sub": 0,
+    "src": "EVENT_7abb2c4ae8b647536aa044edbd13a3fb",
+    "dst": "EVENT_8304bf2ec47798ad5c016e1de3e03d8a",
+    "gold_path": [
+      "EVENT_7abb2c4ae8b647536aa044edbd13a3fb",
+      "EVENT_3191c42e40bbbe88f30855d419f5d5e0",
+      "EVENT_a733016675ff47e627d11d7859d1b17d",
+      "EVENT_8304bf2ec47798ad5c016e1de3e03d8a"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 21.8461,
+    "split": "train"
+  },
+  {
+    "doc_id": "ce42b57b90199c73b1bc5c1b46cd9f0b",
+    "title": "Battle of Saint Gotthard (1705)",
+    "mode": "mixed",
+    "events": 14,
+    "temp": 64,
+    "causal": 3,
+    "sub": 4,
+    "src": "EVENT_925accc10d15a23957d137524f2890b5",
+    "dst": "EVENT_14c4c62bc9bd5b6ec865be4cfe0bc6e6",
+    "gold_path": [
+      "EVENT_925accc10d15a23957d137524f2890b5",
+      "EVENT_447699254eeb1dc8a6c9e3846f5b7445",
+      "EVENT_71fa15e7de06de83267bd3c1e54cd18c",
+      "EVENT_14c4c62bc9bd5b6ec865be4cfe0bc6e6"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.3964,
+    "split": "train"
+  },
+  {
+    "doc_id": "36503dfd7fb84c9f3719e40420b54386",
+    "title": "2012 Homeless World Cup",
+    "mode": "mixed",
+    "events": 9,
+    "temp": 17,
+    "causal": 2,
+    "sub": 0,
+    "src": "EVENT_5b6b13cd35c716cb684a2564b02b655e",
+    "dst": "EVENT_63c960ad51080986b42c475f50bd9966",
+    "gold_path": [
+      "EVENT_5b6b13cd35c716cb684a2564b02b655e",
+      "EVENT_563ca05691309d659f7b0641faa88d1f",
+      "EVENT_b050f1ad9932666ee1b84943afee2f64",
+      "EVENT_63c960ad51080986b42c475f50bd9966"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 21.0959,
+    "split": "train"
+  },
+  {
+    "doc_id": "899ecbbc6e776b2a9c92a9bfc2a99646",
+    "title": "2010 Champions League Twenty20",
+    "mode": "mixed",
+    "events": 10,
+    "temp": 45,
+    "causal": 7,
+    "sub": 7,
+    "src": "EVENT_53724ee683facf11029ae07a91b9a343",
+    "dst": "EVENT_2e834b1d5d1ad1076de8790240090d83",
+    "gold_path": [
+      "EVENT_53724ee683facf11029ae07a91b9a343",
+      "EVENT_cbeddc60c2ac926fb35079596eeeb54f",
+      "EVENT_7b85d2d98ae90036a1800a4e8252bab3",
+      "EVENT_2e834b1d5d1ad1076de8790240090d83"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.366,
+    "split": "train"
+  },
+  {
+    "doc_id": "40bbb7595341e2b2e262636cae0758dc",
+    "title": "Greenland in World War II",
+    "mode": "mixed",
+    "events": 9,
+    "temp": 13,
+    "causal": 1,
+    "sub": 0,
+    "src": "TIME_23eb02476b4f39138f2477d2d06cbdc1",
+    "dst": "EVENT_457e57643f7a130a64718b4dee43ce78",
+    "gold_path": [
+      "TIME_23eb02476b4f39138f2477d2d06cbdc1",
+      "EVENT_7a452e631acfaab97a2a8a6a1f074b95",
+      "EVENT_457e57643f7a130a64718b4dee43ce78"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 18.5709,
+    "split": "train"
+  },
+  {
+    "doc_id": "cbb4d85a02adf8471c3a86cdc4643996",
+    "title": "Sennacherib",
+    "mode": "temporal",
+    "events": 14,
+    "temp": 77,
+    "causal": 6,
+    "sub": 0,
+    "src": "EVENT_86704d5ad4d6aaf56ec063b395df0103",
+    "dst": "TIME_9aff6560f7045f818235710b4a168cad",
+    "gold_path": [
+      "EVENT_86704d5ad4d6aaf56ec063b395df0103",
+      "EVENT_304ca40bf2a55350707d818e00808b39",
+      "EVENT_e878c6562d6050f02c9f244b9dc74264",
+      "TIME_9aff6560f7045f818235710b4a168cad"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE"
+    ],
+    "score": 34.7714,
+    "split": "train"
+  },
+  {
+    "doc_id": "11dadfeaa12c33a76009973c1bb16fa0",
+    "title": "Linjeflyg Flight 618",
+    "mode": "temporal",
+    "events": 20,
+    "temp": 91,
+    "causal": 5,
+    "sub": 0,
+    "src": "EVENT_a6b3d24254a18d73c281715e12167a01",
+    "dst": "EVENT_83f24a015115ea8472db95851c9ea528",
+    "gold_path": [
+      "EVENT_a6b3d24254a18d73c281715e12167a01",
+      "EVENT_533b4f373c72bf0b301e55b1f3ec9c51",
+      "EVENT_818e7486c1ade208ea9d9bc6da303cba",
+      "EVENT_83f24a015115ea8472db95851c9ea528"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 34.912,
+    "split": "train"
+  },
+  {
+    "doc_id": "7374fd19ab7d8d9f0fab4d1bf6bda626",
+    "title": "Infernal columns",
+    "mode": "mixed",
+    "events": 15,
+    "temp": 64,
+    "causal": 7,
+    "sub": 2,
+    "src": "EVENT_3e282d5829f344cb424a818c3d8fc323",
+    "dst": "EVENT_49f66e3d01b5433e8b1b8a64c9026c9e",
+    "gold_path": [
+      "EVENT_3e282d5829f344cb424a818c3d8fc323",
+      "EVENT_003930b10513aa80184fabe0cff23064",
+      "EVENT_bbedb72862a00af5db1e1ced60ffe382",
+      "EVENT_49f66e3d01b5433e8b1b8a64c9026c9e"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.3865,
+    "split": "train"
+  },
+  {
+    "doc_id": "52440794441b29f29c1dc006598d9436",
+    "title": "Commonwealth Heads of Government Meeting 2002",
+    "mode": "mixed",
+    "events": 13,
+    "temp": 53,
+    "causal": 2,
+    "sub": 1,
+    "src": "EVENT_be0c27f6d15e9e32113af242a8466e8c",
+    "dst": "EVENT_3e41a4aca6e9b3cb0cfd1259e8b6880e",
+    "gold_path": [
+      "EVENT_be0c27f6d15e9e32113af242a8466e8c",
+      "EVENT_646afd7401f9d9340e0a77e16ee43d99",
+      "EVENT_5a4c0678e36f8b910e6714ea4f37f61c",
+      "EVENT_3e41a4aca6e9b3cb0cfd1259e8b6880e"
+    ],
+    "gold_rels": [
+      "CAUSAL_CAUSE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.2913,
+    "split": "train"
+  },
+  {
+    "doc_id": "a016d022dabb4416b4d0e78fec675a22",
+    "title": "2015 ICC Europe Division One",
+    "mode": "mixed",
+    "events": 7,
+    "temp": 30,
+    "causal": 5,
+    "sub": 0,
+    "src": "TIME_e29a85a1ef287a0dc41da1aeb6bfe05b",
+    "dst": "TIME_ae01cd9c92679e3a66a14c57d7267fd6",
+    "gold_path": [
+      "TIME_e29a85a1ef287a0dc41da1aeb6bfe05b",
+      "EVENT_103427d36879eaa78a64a7a012d68556",
+      "EVENT_a92fced6612eef8d04cce1f4a9e5318c",
+      "TIME_ae01cd9c92679e3a66a14c57d7267fd6"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.1757,
+    "split": "train"
+  },
+  {
+    "doc_id": "8982bb29cb796dfa3a73d598f0b89ab2",
+    "title": "Samoan Clipper",
+    "mode": "mixed",
+    "events": 12,
+    "temp": 62,
+    "causal": 6,
+    "sub": 0,
+    "src": "EVENT_4d936519bdba6a1840d7ac59b3594145",
+    "dst": "EVENT_6e075137c55dff76f6004468c0f763e2",
+    "gold_path": [
+      "EVENT_4d936519bdba6a1840d7ac59b3594145",
+      "EVENT_37350d87bc1ff9001d09dc2f39a44f82",
+      "EVENT_10a60b528a398f2f964ed10f272dc93e",
+      "EVENT_6e075137c55dff76f6004468c0f763e2"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 21.8412,
+    "split": "train"
+  },
+  {
+    "doc_id": "897cf24404901edbb47ded6501a8aab4",
+    "title": "Tropical Storm Laura (1971)",
+    "mode": "causal",
+    "events": 19,
+    "temp": 153,
+    "causal": 16,
+    "sub": 0,
+    "src": "EVENT_5343e190a96d3fb5a1977dbccb462f8a",
+    "dst": "EVENT_8f34a6c1ebb553a98d3bc447de835fd1",
+    "gold_path": [
+      "EVENT_5343e190a96d3fb5a1977dbccb462f8a",
+      "EVENT_3d40803ab4360ecda1b5497a0abc1713",
+      "EVENT_8f34a6c1ebb553a98d3bc447de835fd1"
+    ],
+    "gold_rels": [
+      "CAUSAL_CAUSE",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 23.1619,
+    "split": "train"
+  },
+  {
+    "doc_id": "b89db34ad84587b26460da65d2533918",
+    "title": "Typhoon Lupit (2003)",
+    "mode": "temporal",
+    "events": 30,
+    "temp": 269,
+    "causal": 13,
+    "sub": 0,
+    "src": "TIME_7aaa30a7e4ee3d9cd1c598ef2c44a2e7",
+    "dst": "EVENT_c7063784e422f78514cf4a4104e5e224",
+    "gold_path": [
+      "TIME_7aaa30a7e4ee3d9cd1c598ef2c44a2e7",
+      "EVENT_fbea6a17c491305b1b1df24c1853c267",
+      "EVENT_dcec07e83f4ef3d2947d68540d01c3f6",
+      "EVENT_c7063784e422f78514cf4a4104e5e224"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 36.693,
+    "split": "train"
+  },
+  {
+    "doc_id": "bdc5c1d3631b81d7fe3b20c1f590ab47",
+    "title": "Ilosaarirock",
+    "mode": "temporal",
+    "events": 12,
+    "temp": 105,
+    "causal": 3,
+    "sub": 0,
+    "src": "TIME_26bc87cc9878ca39dfc1d794db3d739d",
+    "dst": "EVENT_786877704e21f150d1438841d9b63b8e",
+    "gold_path": [
+      "TIME_26bc87cc9878ca39dfc1d794db3d739d",
+      "EVENT_35d8438e5625e36036bc9b8b660befdf",
+      "EVENT_c115a93014f8ccca65a39eb39a72b64c",
+      "EVENT_786877704e21f150d1438841d9b63b8e"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.0512,
+    "split": "train"
+  },
+  {
+    "doc_id": "bdcefdba83f4e892963c60e1a0b77c06",
+    "title": "Action of 18 September 1810",
+    "mode": "causal",
+    "events": 44,
+    "temp": 399,
+    "causal": 26,
+    "sub": 5,
+    "src": "EVENT_86fce567604744ff8eb9c0889818466d",
+    "dst": "EVENT_f60861fda05b8d9417d66d76d22ed8fb",
+    "gold_path": [
+      "EVENT_86fce567604744ff8eb9c0889818466d",
+      "EVENT_c175a37286ea6c93fdd5fbe0a21497c9",
+      "EVENT_a39e8ef306aba48be78af3b3f6fdadc4",
+      "EVENT_f60861fda05b8d9417d66d76d22ed8fb"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.2694,
+    "split": "valid"
+  },
+  {
+    "doc_id": "cdf47c7b57013011cdd5836569bc6a81",
+    "title": "Siege of Exeter (1068)",
+    "mode": "temporal",
+    "events": 19,
+    "temp": 168,
+    "causal": 8,
+    "sub": 0,
+    "src": "EVENT_a4e876f5624d24c40f354d9a10785cdb",
+    "dst": "EVENT_da5e58c7644c4079c22e4112803aeb9e",
+    "gold_path": [
+      "EVENT_a4e876f5624d24c40f354d9a10785cdb",
+      "EVENT_beefc865cf6a087337ea57890bcc990d",
+      "EVENT_5b4b8d559bc4448c39cf571f3f4a6033",
+      "EVENT_da5e58c7644c4079c22e4112803aeb9e"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.6819,
+    "split": "train"
+  },
+  {
+    "doc_id": "44c090dcfe91929f5549f7053280a910",
+    "title": "Castro Street Fair",
+    "mode": "causal",
+    "events": 19,
+    "temp": 180,
+    "causal": 12,
+    "sub": 2,
+    "src": "EVENT_b26bebe844c77a8615b5314fe0669cb1",
+    "dst": "EVENT_ddac842ce1fbb4170381464528eff817",
+    "gold_path": [
+      "EVENT_b26bebe844c77a8615b5314fe0669cb1",
+      "EVENT_55a6fe02773e1762e0a9c29fb5ed0a50",
+      "EVENT_ddac842ce1fbb4170381464528eff817"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1239,
+    "split": "valid"
+  },
+  {
+    "doc_id": "be0463896725281471fca7de5dcf1286",
+    "title": "1949 Florida hurricane",
+    "mode": "causal",
+    "events": 44,
+    "temp": 398,
+    "causal": 59,
+    "sub": 3,
+    "src": "EVENT_0611e1f501b7edcb596ac7688acd2f98",
+    "dst": "EVENT_63d7bfec13e70a73e47a7b4d17be492a",
+    "gold_path": [
+      "EVENT_0611e1f501b7edcb596ac7688acd2f98",
+      "EVENT_f470d9d9255b8073660c01df92b1792a",
+      "EVENT_63d7bfec13e70a73e47a7b4d17be492a"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 23.5974,
+    "split": "valid"
+  },
+  {
+    "doc_id": "054d40f6118035e4f4fdcbf05bd1d5af",
+    "title": "Java War",
+    "mode": "temporal",
+    "events": 18,
+    "temp": 183,
+    "causal": 6,
+    "sub": 5,
+    "src": "EVENT_3ad53935fb8dc01c7068d62fd62f4368",
+    "dst": "EVENT_4fc40e9f86368593d9135aa78ee78bd4",
+    "gold_path": [
+      "EVENT_3ad53935fb8dc01c7068d62fd62f4368",
+      "EVENT_b38a511b7087b6958b81c37f9ff58081",
+      "EVENT_5fe3876ffa7089b97e061772d695e61a",
+      "EVENT_4fc40e9f86368593d9135aa78ee78bd4"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.8368,
+    "split": "valid"
+  },
+  {
+    "doc_id": "8cc6ab4cc5d56580f54718fd3991e175",
+    "title": "Westgate shopping mall attack",
+    "mode": "temporal",
+    "events": 21,
+    "temp": 177,
+    "causal": 3,
+    "sub": 7,
+    "src": "EVENT_f21701588c511892b1ed1d28e6a35f3f",
+    "dst": "TIME_0e0ea29a827aa1c5f713ad1d34b7244b",
+    "gold_path": [
+      "EVENT_f21701588c511892b1ed1d28e6a35f3f",
+      "EVENT_56b2ffbd7545a31ca93b97082a114c8c",
+      "TIME_da4c0f268a8eca712480e4c6bdfeb5c5",
+      "TIME_0e0ea29a827aa1c5f713ad1d34b7244b"
+    ],
+    "gold_rels": [
+      "TEMP_OVERLAP",
+      "TEMP_OVERLAP",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.7791,
+    "split": "valid"
+  },
+  {
+    "doc_id": "a3471a5a94941082e97a838f30a9acb5",
+    "title": "Hurricane Olivia (1975)",
+    "mode": "causal",
+    "events": 13,
+    "temp": 74,
+    "causal": 18,
+    "sub": 5,
+    "src": "EVENT_3193df5ca5b6246d85e4668b5881749e",
+    "dst": "EVENT_1b7d992f7604e3317737e1d25f84060b",
+    "gold_path": [
+      "EVENT_3193df5ca5b6246d85e4668b5881749e",
+      "EVENT_021be97437d89337f6224a437059be67",
+      "EVENT_22af1990e2d9318ba4342d6dc5739a41",
+      "EVENT_1b7d992f7604e3317737e1d25f84060b"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.1863,
+    "split": "valid"
+  },
+  {
+    "doc_id": "3616d22acfe84ace6484a0af9185934a",
+    "title": "2005 Azores subtropical storm",
+    "mode": "temporal",
+    "events": 18,
+    "temp": 147,
+    "causal": 6,
+    "sub": 4,
+    "src": "EVENT_89cea08d8722ececf34279a6e9b61dd6",
+    "dst": "EVENT_587a020a6cf1ecbc57219557567d1342",
+    "gold_path": [
+      "EVENT_89cea08d8722ececf34279a6e9b61dd6",
+      "EVENT_ac0b1d2f2e88358689e1a7e639a9b34c",
+      "EVENT_3afff2e7f5613409b549ec327d64ab34",
+      "EVENT_587a020a6cf1ecbc57219557567d1342"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 35.4758,
+    "split": "train"
+  },
+  {
+    "doc_id": "a649377d838f424ae192a1cdae724ccd",
+    "title": "Fourth Siege of Gibraltar",
+    "mode": "causal",
+    "events": 18,
+    "temp": 144,
+    "causal": 15,
+    "sub": 2,
+    "src": "EVENT_987f6db81ce63f5a8e1b4b154d2edcf7",
+    "dst": "EVENT_913ee5d780cc800d94710e074d8d088d",
+    "gold_path": [
+      "EVENT_987f6db81ce63f5a8e1b4b154d2edcf7",
+      "EVENT_1ef97cbb4afc279da8d4183683550195",
+      "EVENT_c719b2f7aa5adbe56270ae5fcf494297",
+      "EVENT_913ee5d780cc800d94710e074d8d088d"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.1538,
+    "split": "train"
+  },
+  {
+    "doc_id": "9e6d1aa612bf7553d184fd81391fa3cd",
+    "title": "1979 Gillette Cup Final",
+    "mode": "temporal",
+    "events": 18,
+    "temp": 163,
+    "causal": 5,
+    "sub": 0,
+    "src": "EVENT_1272dccc002710a973e44d372dbbdd4d",
+    "dst": "EVENT_dcf1393193b027ae7df375620d1ba1e4",
+    "gold_path": [
+      "EVENT_1272dccc002710a973e44d372dbbdd4d",
+      "EVENT_771fbbf2e981aa38670504600e26f5d0",
+      "EVENT_38b9a2ed3bc24ddf7463b732f4dd46e3",
+      "EVENT_dcf1393193b027ae7df375620d1ba1e4"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_SIMULTANEOUS",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.6318,
+    "split": "train"
+  },
+  {
+    "doc_id": "74d64d81e37d37dfd8d333cc1c827a6e",
+    "title": "Taxpayer March on Washington",
+    "mode": "temporal",
+    "events": 21,
+    "temp": 219,
+    "causal": 4,
+    "sub": 6,
+    "src": "EVENT_6095dd84768fbffe97d6e84adeaf83d0",
+    "dst": "EVENT_aa7854f818ea566877bb55bfdee4b949",
+    "gold_path": [
+      "EVENT_6095dd84768fbffe97d6e84adeaf83d0",
+      "EVENT_342112fa8ff1cf59d93e8f41bf2b247b",
+      "EVENT_530619f16106b0f31ffffe8da62ba952",
+      "EVENT_aa7854f818ea566877bb55bfdee4b949"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 36.1981,
+    "split": "valid"
+  },
+  {
+    "doc_id": "1d7af03aac7c16918b015e11d410f3de",
+    "title": "2000 ICC KnockOut Trophy",
+    "mode": "temporal",
+    "events": 18,
+    "temp": 118,
+    "causal": 2,
+    "sub": 15,
+    "src": "EVENT_39847dfd30fd259cd1e342b89fe05398",
+    "dst": "EVENT_2a743f1c9da764dad9ac91f411b21dea",
+    "gold_path": [
+      "EVENT_39847dfd30fd259cd1e342b89fe05398",
+      "EVENT_6ea48cd16915ddd36eb01ff28af60e83",
+      "EVENT_ad00c0bc29e820bb8f8abb29e437cdb3",
+      "EVENT_2a743f1c9da764dad9ac91f411b21dea"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.1968,
+    "split": "train"
+  },
+  {
+    "doc_id": "05728c9563aafedf6e45921c74ef5667",
+    "title": "35th G8 summit",
+    "mode": "temporal",
+    "events": 15,
+    "temp": 124,
+    "causal": 5,
+    "sub": 0,
+    "src": "TIME_5876fb545a795774a77294133a064a9d",
+    "dst": "EVENT_e081c9cd45ea342556b5ae8a1dbd84d9",
+    "gold_path": [
+      "TIME_5876fb545a795774a77294133a064a9d",
+      "EVENT_636ea8da982b611063ef7d7b54636ecf",
+      "EVENT_bf6f21d2f149e6e18756827ff2a3ea59",
+      "EVENT_e081c9cd45ea342556b5ae8a1dbd84d9"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.2415,
+    "split": "train"
+  },
+  {
+    "doc_id": "f8c2bff6414b256d0503d947967bbbd9",
+    "title": "1929 Arthur's Pass earthquake",
+    "mode": "mixed",
+    "events": 9,
+    "temp": 56,
+    "causal": 10,
+    "sub": 2,
+    "src": "EVENT_ccca9427c0582ab32531a0ac2fe0da01",
+    "dst": "EVENT_1e5a4431c56f930a696a1591f3f85aea",
+    "gold_path": [
+      "EVENT_ccca9427c0582ab32531a0ac2fe0da01",
+      "EVENT_99a92022653a25e06c33e61ae00eb140",
+      "EVENT_a90b95870b183b9bbbcf54c3b5ec834f",
+      "EVENT_1e5a4431c56f930a696a1591f3f85aea"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "TEMP_BEFORE",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 27.3609,
+    "split": "train"
+  },
+  {
+    "doc_id": "1bd0481ed76cc5e5200e51f0e676a7d0",
+    "title": "Siege of Florence (1529–30)",
+    "mode": "causal",
+    "events": 23,
+    "temp": 220,
+    "causal": 19,
+    "sub": 10,
+    "src": "EVENT_0de29d4b4783cf6ba0a460792bc64660",
+    "dst": "EVENT_37ec17cc4b9eed65280e6632afa08ba7",
+    "gold_path": [
+      "EVENT_0de29d4b4783cf6ba0a460792bc64660",
+      "EVENT_400295eb9ecdcb7a2516711f2066234b",
+      "EVENT_8acb8ded6213cb76baaf099f4769979c",
+      "EVENT_37ec17cc4b9eed65280e6632afa08ba7"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.2023,
+    "split": "valid"
+  },
+  {
+    "doc_id": "afd81559efff42afcfa0631e2a1ed093",
+    "title": "1960 Commonwealth Prime Ministers' Conference",
+    "mode": "causal",
+    "events": 17,
+    "temp": 133,
+    "causal": 26,
+    "sub": 0,
+    "src": "EVENT_aa87c68f1f45853177c27f9d4aa87e56",
+    "dst": "EVENT_ab6cb4bc380e85edd6ce8e56e9128081",
+    "gold_path": [
+      "EVENT_aa87c68f1f45853177c27f9d4aa87e56",
+      "EVENT_b1868e0c7788b1652787b3264921b41a",
+      "EVENT_c6ffd3c4611541d5d58fb49f0bd969e5",
+      "EVENT_ab6cb4bc380e85edd6ce8e56e9128081"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.2617,
+    "split": "train"
+  },
+  {
+    "doc_id": "e3a89efa030297d71aea01a166e2d98b",
+    "title": "Stereosonic",
+    "mode": "temporal",
+    "events": 25,
+    "temp": 174,
+    "causal": 4,
+    "sub": 0,
+    "src": "EVENT_663a3de5c9c4e195f26da8dfbe5f4db3",
+    "dst": "EVENT_8d4e1cd5a7dfb0f121dc1e4ab36870a2",
+    "gold_path": [
+      "EVENT_663a3de5c9c4e195f26da8dfbe5f4db3",
+      "EVENT_e3f2375e61994845a76e36f46bb77116",
+      "EVENT_a8a3a4179034d66900d9cf31910fd0ee",
+      "EVENT_8d4e1cd5a7dfb0f121dc1e4ab36870a2"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.7425,
+    "split": "train"
+  },
+  {
+    "doc_id": "cbcf340625b624787c7612e8f0d8698c",
+    "title": "14 On Fire",
+    "mode": "mixed",
+    "events": 6,
+    "temp": 36,
+    "causal": 1,
+    "sub": 2,
+    "src": "TIME_d859d3983ec7761f80187c2f9b31ce2c",
+    "dst": "EVENT_2233ca749db797ebbecc97cf9f02500a",
+    "gold_path": [
+      "TIME_d859d3983ec7761f80187c2f9b31ce2c",
+      "EVENT_a388825797a12e41272fe7fa359a44f2",
+      "EVENT_abcaa7d7e51c4b28837a57c6f91336b5",
+      "EVENT_2233ca749db797ebbecc97cf9f02500a"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "SUBEVENT",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 27.2156,
+    "split": "train"
+  },
+  {
+    "doc_id": "b715b2a6cb2a10faf4b9a0761eebe8ca",
+    "title": "2015 Preakness Stakes",
+    "mode": "mixed",
+    "events": 7,
+    "temp": 66,
+    "causal": 4,
+    "sub": 0,
+    "src": "TIME_e7b50833a3c22e7181de0d006b06c9c6",
+    "dst": "TIME_bb1de6014fbdbcdc62a2ab9dc407ba81",
+    "gold_path": [
+      "TIME_e7b50833a3c22e7181de0d006b06c9c6",
+      "EVENT_68cf93025518bbdd1f297fdb6a19dba7",
+      "EVENT_6ebd4df79cabd23905524594cc517afe",
+      "TIME_bb1de6014fbdbcdc62a2ab9dc407ba81"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE"
+    ],
+    "score": 21.3507,
+    "split": "train"
+  },
+  {
+    "doc_id": "74c30f8263d622ca516420b2c84699ea",
+    "title": "Hurricane Martha",
+    "mode": "causal",
+    "events": 28,
+    "temp": 272,
+    "causal": 13,
+    "sub": 0,
+    "src": "EVENT_929b9c68a4876e6bb68975ef917b7dc8",
+    "dst": "EVENT_0b61a25ff44a0c9beaa7e61bd6f98873",
+    "gold_path": [
+      "EVENT_929b9c68a4876e6bb68975ef917b7dc8",
+      "EVENT_f7237d26b729e5bf2e140aa669109bcc",
+      "EVENT_0b61a25ff44a0c9beaa7e61bd6f98873"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1328,
+    "split": "train"
+  },
+  {
+    "doc_id": "478a35fb2ade5d5837dd47ac481f4d89",
+    "title": "Chelford rail accident",
+    "mode": "causal",
+    "events": 32,
+    "temp": 300,
+    "causal": 21,
+    "sub": 0,
+    "src": "EVENT_dd9c3a5c0523020676eaff9af71c4d9c",
+    "dst": "EVENT_22e314ca9be25adbf4675d18a816fc66",
+    "gold_path": [
+      "EVENT_dd9c3a5c0523020676eaff9af71c4d9c",
+      "EVENT_0ebd0cf065ecf70a5c2b301896a24a85",
+      "EVENT_22e314ca9be25adbf4675d18a816fc66"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.2132,
+    "split": "train"
+  },
+  {
+    "doc_id": "ccab19edbb3945cd74927919d67e9646",
+    "title": "Battle of Sangju (1950)",
+    "mode": "temporal",
+    "events": 21,
+    "temp": 152,
+    "causal": 6,
+    "sub": 8,
+    "src": "EVENT_73195f1bcdaed373d23a340e6d182a60",
+    "dst": "EVENT_a1711951c29e1fea57e2dd429ea290df",
+    "gold_path": [
+      "EVENT_73195f1bcdaed373d23a340e6d182a60",
+      "EVENT_6e4b2f5002382bc7c306895c7f1e5506",
+      "EVENT_ce1abf61ff1788a8e8bc15b0711eabd9",
+      "EVENT_a1711951c29e1fea57e2dd429ea290df"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_OVERLAP"
+    ],
+    "score": 35.5301,
+    "split": "train"
+  },
+  {
+    "doc_id": "e883f9aa8163624fcda748fd56326ea3",
+    "title": "Ravinia Festival",
+    "mode": "mixed",
+    "events": 4,
+    "temp": 28,
+    "causal": 0,
+    "sub": 0,
+    "src": "TIME_88dd68d9023d1ac55b7e9710721f0b59",
+    "dst": "EVENT_b8b475862b6cf298fd3a4ccecec102d0",
+    "gold_path": [
+      "TIME_88dd68d9023d1ac55b7e9710721f0b59",
+      "TIME_3d4dfe9cf7754cdc2249c917449bdf33",
+      "TIME_1623875afb82ed0c071cda855b7d77ca",
+      "EVENT_b8b475862b6cf298fd3a4ccecec102d0"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 14.6404,
+    "split": "train"
+  },
+  {
+    "doc_id": "6655dbe5df9d9b4070d0082342f55c92",
+    "title": "1995 Men's World Ice Hockey Championships",
+    "mode": "causal",
+    "events": 31,
+    "temp": 193,
+    "causal": 18,
+    "sub": 19,
+    "src": "EVENT_108445e4bc0b46f7e748bb2c91ba6011",
+    "dst": "EVENT_6cebe33af039a3a00ac24f923e3fa2f0",
+    "gold_path": [
+      "EVENT_108445e4bc0b46f7e748bb2c91ba6011",
+      "EVENT_309d0d92b67091af4824596be0dfb780",
+      "EVENT_6cebe33af039a3a00ac24f923e3fa2f0"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.2021,
+    "split": "train"
+  },
+  {
+    "doc_id": "fcae7cfd9a7e8816368a3fcd8a0d94da",
+    "title": "Battle of Radom",
+    "mode": "mixed",
+    "events": 10,
+    "temp": 60,
+    "causal": 5,
+    "sub": 14,
+    "src": "EVENT_3eb8df61e7f7aa58320bdb3ff46cd53d",
+    "dst": "EVENT_af6c6e2ae1dd74cb4b44b0d52a2f3a3b",
+    "gold_path": [
+      "EVENT_3eb8df61e7f7aa58320bdb3ff46cd53d",
+      "EVENT_960b7b051f5e1972de1d22d099dddf43",
+      "EVENT_a77a3d87f9c3fb4857cac014018877d2",
+      "EVENT_af6c6e2ae1dd74cb4b44b0d52a2f3a3b"
+    ],
+    "gold_rels": [
+      "SUBEVENT",
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE"
+    ],
+    "score": 27.536,
+    "split": "valid"
+  },
+  {
+    "doc_id": "c0be3841d33a7eaa11ebf0cc021679ff",
+    "title": "Birmingham campaign",
+    "mode": "causal",
+    "events": 49,
+    "temp": 462,
+    "causal": 53,
+    "sub": 1,
+    "src": "EVENT_62aebdd7f91ea9a36f27cf52f70dd426",
+    "dst": "EVENT_1e45d74267b8ea9630eaefdaf1caf09f",
+    "gold_path": [
+      "EVENT_62aebdd7f91ea9a36f27cf52f70dd426",
+      "EVENT_180967a66445fa837fb704a24dc932e4",
+      "EVENT_0cebf1c345266ef335b4b475856f6cb9",
+      "EVENT_1e45d74267b8ea9630eaefdaf1caf09f"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.5359,
+    "split": "train"
+  },
+  {
+    "doc_id": "043d58dfa1df977d608f519822889b03",
+    "title": "Port of Dartmouth Royal Regatta",
+    "mode": "mixed",
+    "events": 8,
+    "temp": 53,
+    "causal": 3,
+    "sub": 0,
+    "src": "TIME_4543771ac93b6bb2d154565cb4ae6a8c",
+    "dst": "EVENT_7f310931d7f26700a70f19f111a33845",
+    "gold_path": [
+      "TIME_4543771ac93b6bb2d154565cb4ae6a8c",
+      "EVENT_25ca5651c8d77b93e2e9bd56e1269d2a",
+      "EVENT_e9a1077a5fe8f5d0f306725bfa39d483",
+      "EVENT_7f310931d7f26700a70f19f111a33845"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 21.2808,
+    "split": "train"
+  },
+  {
+    "doc_id": "f1b16dbb1ac603c34b3be82c84ef4a88",
+    "title": "2007 Samjhauta Express bombings",
+    "mode": "causal",
+    "events": 47,
+    "temp": 430,
+    "causal": 11,
+    "sub": 4,
+    "src": "EVENT_e9c77e47fea871ea38d22562bd346a78",
+    "dst": "EVENT_bcdf34ad23577b3aab046d30c998ff22",
+    "gold_path": [
+      "EVENT_e9c77e47fea871ea38d22562bd346a78",
+      "EVENT_58b679628e23bd1a15c542a8107ef44a",
+      "EVENT_bcdf34ad23577b3aab046d30c998ff22"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1187,
+    "split": "train"
+  },
+  {
+    "doc_id": "8e5be9fc95a9fe8bb9b386479edfd809",
+    "title": "Invasion of Algiers in 1830",
+    "mode": "temporal",
+    "events": 17,
+    "temp": 136,
+    "causal": 2,
+    "sub": 4,
+    "src": "TIME_86efcffa507be04d249b0c0f81e042d9",
+    "dst": "EVENT_a6db325737ecce5a139a9a8922489193",
+    "gold_path": [
+      "TIME_86efcffa507be04d249b0c0f81e042d9",
+      "TIME_4500729bcbe4a9296ca5f477623b3936",
+      "EVENT_4cc9053edf8413001f7c9e88a063553e",
+      "EVENT_a6db325737ecce5a139a9a8922489193"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS",
+      "TEMP_CONTAINS"
+    ],
+    "score": 35.3657,
+    "split": "valid"
+  },
+  {
+    "doc_id": "b3e3edb78265c71ecd519a8c1d5ec96b",
+    "title": "Sack of Sandomierz (1241)",
+    "mode": "temporal",
+    "events": 23,
+    "temp": 230,
+    "causal": 10,
+    "sub": 2,
+    "src": "EVENT_e74cd82b85bc2ff7645b62525a3eb85e",
+    "dst": "EVENT_2685d3a80c4699ed4ddf6f0a4527c594",
+    "gold_path": [
+      "EVENT_e74cd82b85bc2ff7645b62525a3eb85e",
+      "EVENT_f932c354d98483b69ae2d87658c888aa",
+      "EVENT_dc74fced614e36f9000a2ed1feaadc1f",
+      "EVENT_2685d3a80c4699ed4ddf6f0a4527c594"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_OVERLAP"
+    ],
+    "score": 36.3043,
+    "split": "train"
+  },
+  {
+    "doc_id": "73cf06d00ac5f3d64b0003023dd5fb2a",
+    "title": "Mohawk Airlines Flight 121",
+    "mode": "causal",
+    "events": 36,
+    "temp": 306,
+    "causal": 18,
+    "sub": 0,
+    "src": "EVENT_fa17da6606024c40008560872953ed4c",
+    "dst": "EVENT_0b1f44092022bcec6e9f9c3947cd5ff7",
+    "gold_path": [
+      "EVENT_fa17da6606024c40008560872953ed4c",
+      "EVENT_1dc57a1c1df8ed99695feea3db013027",
+      "EVENT_0b1f44092022bcec6e9f9c3947cd5ff7"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1836,
+    "split": "train"
+  },
+  {
+    "doc_id": "b99d6b52434444a29428ec4fbf9d4883",
+    "title": "TWA Flight 513",
+    "mode": "causal",
+    "events": 13,
+    "temp": 74,
+    "causal": 19,
+    "sub": 0,
+    "src": "EVENT_4a2417d1d0963859473b95d1ddda0536",
+    "dst": "EVENT_2cc8c7262c4f7c1eb5ca3a5b883a3139",
+    "gold_path": [
+      "EVENT_4a2417d1d0963859473b95d1ddda0536",
+      "EVENT_a58e7864ed59d4f1c1e34822aee31f58",
+      "EVENT_ea8b559d9cec284ebd3227bee9fb7d83",
+      "EVENT_2cc8c7262c4f7c1eb5ca3a5b883a3139"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.1913,
+    "split": "train"
+  },
+  {
+    "doc_id": "97b2175055dc6a5a462b14d10a322700",
+    "title": "Operation Sayeed",
+    "mode": "mixed",
+    "events": 6,
+    "temp": 45,
+    "causal": 4,
+    "sub": 0,
+    "src": "EVENT_0bf0336b703511b3cdeaaabcb8e13073",
+    "dst": "EVENT_b37da040a49977a00f4ad6641e28c56b",
+    "gold_path": [
+      "EVENT_0bf0336b703511b3cdeaaabcb8e13073",
+      "EVENT_85ae677573bca95fbb836bd910927e34",
+      "TIME_7381a477d3a4b89d036c1b55fdf67d07",
+      "EVENT_b37da040a49977a00f4ad6641e28c56b"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 21.2456,
+    "split": "train"
+  },
+  {
+    "doc_id": "4151b3188a61171963c5397ab5f2dc7a",
+    "title": "Cyclone Gonu",
+    "mode": "causal",
+    "events": 27,
+    "temp": 171,
+    "causal": 13,
+    "sub": 0,
+    "src": "EVENT_cd31cceb7929eec227e4d9fb60cffeac",
+    "dst": "EVENT_dc47d18e7efa989ce6c721f04a0277fb",
+    "gold_path": [
+      "EVENT_cd31cceb7929eec227e4d9fb60cffeac",
+      "EVENT_aa67ab8aadfe1d376cc31209486b326c",
+      "EVENT_dc47d18e7efa989ce6c721f04a0277fb"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 23.1327,
+    "split": "valid"
+  },
+  {
+    "doc_id": "b94a8dea5aa40f195218d8461c18e47d",
+    "title": "2009 ICC World Cricket League Division Three",
+    "mode": "temporal",
+    "events": 10,
+    "temp": 90,
+    "causal": 11,
+    "sub": 0,
+    "src": "TIME_7061d2b56438f024f570a5cb417f411b",
+    "dst": "EVENT_d9dd6a0fa3d0d138aeea6d82d32d0ddf",
+    "gold_path": [
+      "TIME_7061d2b56438f024f570a5cb417f411b",
+      "EVENT_d549f030b764e16ced900edf0857f6af",
+      "TIME_de24de36dd8e0870bccd4e5f5723cf4a",
+      "EVENT_d9dd6a0fa3d0d138aeea6d82d32d0ddf"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 34.901,
+    "split": "train"
+  },
+  {
+    "doc_id": "79cd3df34198bfdad75acf041945bf0f",
+    "title": "Capture of Savannah",
+    "mode": "causal",
+    "events": 18,
+    "temp": 141,
+    "causal": 13,
+    "sub": 0,
+    "src": "EVENT_ba2eb66e495eab9bf196dc9a51915ac6",
+    "dst": "EVENT_6ddcacf3a761f874d7db769e9c9508cb",
+    "gold_path": [
+      "EVENT_ba2eb66e495eab9bf196dc9a51915ac6",
+      "EVENT_a4242bff816a5d06128b9a739e72d420",
+      "EVENT_6ddcacf3a761f874d7db769e9c9508cb"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 23.1318,
+    "split": "train"
+  },
+  {
+    "doc_id": "3dcfd60153822a6a8f6a516f161fc506",
+    "title": "Battle of Malacca (1641)",
+    "mode": "temporal",
+    "events": 20,
+    "temp": 176,
+    "causal": 9,
+    "sub": 0,
+    "src": "TIME_3c26a9670a86ce23864069d5e7f6895b",
+    "dst": "EVENT_3dfde6dbeb4cdf028c8f0e1bee3c12c6",
+    "gold_path": [
+      "TIME_3c26a9670a86ce23864069d5e7f6895b",
+      "EVENT_340bbca3737a4b9ca872d8cd3fe3ceff",
+      "TIME_8d6a5d8e60d3f67d26446f2fc12ead97",
+      "EVENT_3dfde6dbeb4cdf028c8f0e1bee3c12c6"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 35.762,
+    "split": "valid"
+  },
+  {
+    "doc_id": "237e55cf8d7a13b492fa9ca888acc144",
+    "title": "Battle of Staszów",
+    "mode": "causal",
+    "events": 23,
+    "temp": 300,
+    "causal": 25,
+    "sub": 21,
+    "src": "EVENT_1fc23134eb2d0e6c909ab37ae4d98253",
+    "dst": "EVENT_f292758ccafa0aa615b869912934be09",
+    "gold_path": [
+      "EVENT_1fc23134eb2d0e6c909ab37ae4d98253",
+      "EVENT_1e087201d4d0c513f035f85d517364f7",
+      "EVENT_f292758ccafa0aa615b869912934be09"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.2733,
+    "split": "train"
+  },
+  {
+    "doc_id": "072f3251a586ce93259e0484b8fa9c67",
+    "title": "2004 UEFA Champions League Final",
+    "mode": "causal",
+    "events": 20,
+    "temp": 230,
+    "causal": 12,
+    "sub": 0,
+    "src": "EVENT_7b1c33bbcc1f6f26486b601d856940fb",
+    "dst": "EVENT_7f1f427102d14f7f1e30f76554fc42c8",
+    "gold_path": [
+      "EVENT_7b1c33bbcc1f6f26486b601d856940fb",
+      "EVENT_997ae0806f68125e6e0ba9b14f73c85a",
+      "EVENT_7f1f427102d14f7f1e30f76554fc42c8"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.122,
+    "split": "train"
+  },
+  {
+    "doc_id": "8eb177b649f5d27644631006a0494d77",
+    "title": "Iraq War",
+    "mode": "temporal",
+    "events": 50,
+    "temp": 850,
+    "causal": 10,
+    "sub": 9,
+    "src": "EVENT_d5ec4ad6c45b2f463c33de827c8e75ad",
+    "dst": "EVENT_31e9dd87686f8e3b22397359b46bdca1",
+    "gold_path": [
+      "EVENT_d5ec4ad6c45b2f463c33de827c8e75ad",
+      "EVENT_b6b74c8435cbd235764812bb98892e20",
+      "EVENT_f025c809f857b41b9b2ca81f776d8469",
+      "EVENT_31e9dd87686f8e3b22397359b46bdca1"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 42.514,
+    "split": "train"
+  },
+  {
+    "doc_id": "c55163fc8bb71879a3f1b5e5278da56e",
+    "title": "Welcome to the Universe Tour",
+    "mode": "causal",
+    "events": 19,
+    "temp": 231,
+    "causal": 17,
+    "sub": 8,
+    "src": "EVENT_2042394c9f7c72b71c1a8f7a1760bf5c",
+    "dst": "EVENT_c16ba06620a65dbe9c07d880bd366715",
+    "gold_path": [
+      "EVENT_2042394c9f7c72b71c1a8f7a1760bf5c",
+      "EVENT_15e9d1d5935bab01748990f9d6788be9",
+      "EVENT_b857688807cef6c71f3ba93a8f5e11ea",
+      "EVENT_c16ba06620a65dbe9c07d880bd366715"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.1799,
+    "split": "train"
+  },
+  {
+    "doc_id": "55fe17f32b3f57942483e202869aaa0a",
+    "title": "Southport Airshow",
+    "mode": "temporal",
+    "events": 17,
+    "temp": 246,
+    "causal": 4,
+    "sub": 0,
+    "src": "TIME_0e8088ea5a97f1419129a3688915275f",
+    "dst": "EVENT_d3aa83801930011b2099da894ff6f2b9",
+    "gold_path": [
+      "TIME_0e8088ea5a97f1419129a3688915275f",
+      "EVENT_211aa57e7dcc7318275217d11ab0fc9f",
+      "TIME_4b54f4ce7fd9a725d4a833b9036cdbc5",
+      "EVENT_d3aa83801930011b2099da894ff6f2b9"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 36.4617,
+    "split": "train"
+  },
+  {
+    "doc_id": "e96e5e6a762995efbf44c68bacc734b9",
+    "title": "Battle of the Bowling Alley",
+    "mode": "temporal",
+    "events": 32,
+    "temp": 396,
+    "causal": 2,
+    "sub": 10,
+    "src": "EVENT_8be49f83cf9ade70c24bb9898f71fbfa",
+    "dst": "EVENT_ef6a79cf96319a923e17ca90e8e7e2eb",
+    "gold_path": [
+      "EVENT_8be49f83cf9ade70c24bb9898f71fbfa",
+      "EVENT_d25e60a6b366d0d57d12d4a303632613",
+      "TIME_9702c26e377de68ca26a1843484c3453",
+      "EVENT_ef6a79cf96319a923e17ca90e8e7e2eb"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_CONTAINS"
+    ],
+    "score": 37.9732,
+    "split": "train"
+  },
+  {
+    "doc_id": "1fd53a66d00fe310beec23ccd150f6b7",
+    "title": "Hurricane Nora (2003)",
+    "mode": "temporal",
+    "events": 22,
+    "temp": 276,
+    "causal": 10,
+    "sub": 0,
+    "src": "EVENT_026fdf2e827fc4d2ede34f53e7153809",
+    "dst": "EVENT_2518ff0834108534f71b7fe9ebbfbb74",
+    "gold_path": [
+      "EVENT_026fdf2e827fc4d2ede34f53e7153809",
+      "EVENT_2e0a3ab51eee3faf5abcd3bb86f35f79",
+      "EVENT_b00626ddc3aba7d71d8c7b97c25aabc1",
+      "EVENT_2518ff0834108534f71b7fe9ebbfbb74"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 36.7622,
+    "split": "train"
+  },
+  {
+    "doc_id": "47edb94355e4f1cc5cb401d9ace3fb6b",
+    "title": "Siege of Sarajevo",
+    "mode": "temporal",
+    "events": 17,
+    "temp": 190,
+    "causal": 6,
+    "sub": 0,
+    "src": "EVENT_a75350861e0da8c97659b2f21094b514",
+    "dst": "TIME_842fa5cb4c8f371162204eae62cf08dc",
+    "gold_path": [
+      "EVENT_a75350861e0da8c97659b2f21094b514",
+      "TIME_fdcde96a13a3beaa87bf10ab3cf9de5e",
+      "EVENT_c7123a9867713107230a6d4d1bffecac",
+      "TIME_842fa5cb4c8f371162204eae62cf08dc"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.9017,
+    "split": "train"
+  },
+  {
+    "doc_id": "4a76e2a9796b4332b33a6d439e1c2daf",
+    "title": "Rollercoaster Tour",
+    "mode": "temporal",
+    "events": 21,
+    "temp": 312,
+    "causal": 3,
+    "sub": 3,
+    "src": "EVENT_b782b1258ceaf01c78eeec8b24487d54",
+    "dst": "TIME_22773225e1257b75fe8c0030f5979b7a",
+    "gold_path": [
+      "EVENT_b782b1258ceaf01c78eeec8b24487d54",
+      "EVENT_6620eedd3fb48f875e6c76ee16ea0bc0",
+      "EVENT_44012b90eae6b2a64c20e4a2e8e511b6",
+      "TIME_22773225e1257b75fe8c0030f5979b7a"
+    ],
+    "gold_rels": [
+      "TEMP_SIMULTANEOUS",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 37.1251,
+    "split": "train"
+  },
+  {
+    "doc_id": "11fb82ecacca361a045592ea2991b902",
+    "title": "Aleppo University bombings",
+    "mode": "temporal",
+    "events": 52,
+    "temp": 600,
+    "causal": 16,
+    "sub": 1,
+    "src": "EVENT_3ef9fafda0cbef0b1ecac55700f37d28",
+    "dst": "EVENT_f371ff47dc4cba34c3e7980aea8343fa",
+    "gold_path": [
+      "EVENT_3ef9fafda0cbef0b1ecac55700f37d28",
+      "EVENT_e1f79d81deff808ccbd5f153096d499f",
+      "EVENT_7ddf2e0008caa079d0065c3052180a42",
+      "EVENT_f371ff47dc4cba34c3e7980aea8343fa"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 40.0062,
+    "split": "train"
+  },
+  {
+    "doc_id": "5c6c16341db777cd6547e1c4e481192d",
+    "title": "Miss Belvedere",
+    "mode": "causal",
+    "events": 7,
+    "temp": 72,
+    "causal": 9,
+    "sub": 0,
+    "src": "EVENT_1ca34e09cc441404ee5bb208ed2c08ef",
+    "dst": "EVENT_5868debfd341281e969ff54e051b3e5f",
+    "gold_path": [
+      "EVENT_1ca34e09cc441404ee5bb208ed2c08ef",
+      "EVENT_488a33cb7dcb59aa9617d42c90ba6a98",
+      "EVENT_a066073281e190167b4013ff6ec9448e",
+      "EVENT_5868debfd341281e969ff54e051b3e5f"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.0907,
+    "split": "train"
+  },
+  {
+    "doc_id": "32dd68419fa076d3216a31532b9de9a4",
+    "title": "2012 Summer Olympics opening ceremony",
+    "mode": "temporal",
+    "events": 44,
+    "temp": 767,
+    "causal": 8,
+    "sub": 12,
+    "src": "EVENT_98496b9165a11db13f1a8acad5aaa39d",
+    "dst": "EVENT_d8fb41c6e37c6a0a51d5cc0ff85098c8",
+    "gold_path": [
+      "EVENT_98496b9165a11db13f1a8acad5aaa39d",
+      "EVENT_6de7042a51d980b8defaff5183de1f15",
+      "EVENT_e4277e111f60b3dceb559e5bba6f0f0f",
+      "EVENT_d8fb41c6e37c6a0a51d5cc0ff85098c8"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 41.6864,
+    "split": "train"
+  },
+  {
+    "doc_id": "2bf5ebb680c29dd420956ca41f035e16",
+    "title": "Laotian Civil War",
+    "mode": "causal",
+    "events": 30,
+    "temp": 513,
+    "causal": 22,
+    "sub": 1,
+    "src": "EVENT_5dd34b348b78cee1a9813f7c7417578f",
+    "dst": "EVENT_7a3fc9bb6afc59303eac037ca4e234e9",
+    "gold_path": [
+      "EVENT_5dd34b348b78cee1a9813f7c7417578f",
+      "EVENT_cae1ea0ff98c7858851496c1b7dfc373",
+      "EVENT_7a3fc9bb6afc59303eac037ca4e234e9"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.224,
+    "split": "valid"
+  },
+  {
+    "doc_id": "a10650e1a7e01a92f952a4b37d91b8b1",
+    "title": "Illinois State Fair",
+    "mode": "causal",
+    "events": 13,
+    "temp": 124,
+    "causal": 17,
+    "sub": 4,
+    "src": "EVENT_1c03b609a2e65e1e2fdc520276cd8b64",
+    "dst": "EVENT_f553c193463bcbda92858190df7ea3ba",
+    "gold_path": [
+      "EVENT_1c03b609a2e65e1e2fdc520276cd8b64",
+      "EVENT_c1018568288554f72799137f1fc89896",
+      "EVENT_f553c193463bcbda92858190df7ea3ba"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1753,
+    "split": "valid"
+  },
+  {
+    "doc_id": "6861c2b735709ef69f993cd53df3e114",
+    "title": "1933 Cuba–Brownsville hurricane",
+    "mode": "causal",
+    "events": 22,
+    "temp": 255,
+    "causal": 44,
+    "sub": 0,
+    "src": "EVENT_02e0dcffe143343d3871032d1f5ac848",
+    "dst": "EVENT_3c240a0da8b0ddd7bfb0959b3053a0b3",
+    "gold_path": [
+      "EVENT_02e0dcffe143343d3871032d1f5ac848",
+      "EVENT_9b65adc11478917bc4c89a49c5d620ce",
+      "EVENT_0453100c01821d79ba05e5a74a695982",
+      "EVENT_3c240a0da8b0ddd7bfb0959b3053a0b3"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_CAUSE"
+    ],
+    "score": 34.4422,
+    "split": "train"
+  },
+  {
+    "doc_id": "368d49ca91799ca8a4fc35246e5933e0",
+    "title": "Quintinshill rail disaster",
+    "mode": "causal",
+    "events": 33,
+    "temp": 361,
+    "causal": 29,
+    "sub": 0,
+    "src": "EVENT_466b1e7a117ede29163966fcad946711",
+    "dst": "EVENT_b73ebd01fe61f555fa76c2c0874f93b0",
+    "gold_path": [
+      "EVENT_466b1e7a117ede29163966fcad946711",
+      "EVENT_588e2111085a920e158220562c50b060",
+      "EVENT_104c63f6265e89e3a254c14e765c454f",
+      "EVENT_b73ebd01fe61f555fa76c2c0874f93b0"
+    ],
+    "gold_rels": [
+      "CAUSAL_CAUSE",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.2933,
+    "split": "train"
+  },
+  {
+    "doc_id": "c5cf076fe0009653eedbb7f66feb26a9",
+    "title": "Chibok schoolgirls kidnapping",
+    "mode": "causal",
+    "events": 19,
+    "temp": 200,
+    "causal": 14,
+    "sub": 1,
+    "src": "EVENT_4cfe7e187ae46f67431bdd13caa07554",
+    "dst": "EVENT_a5193de3b56c89910e20881c0ae282e7",
+    "gold_path": [
+      "EVENT_4cfe7e187ae46f67431bdd13caa07554",
+      "EVENT_d12a662dca04d4fa1a50a020e3ae3432",
+      "EVENT_a5193de3b56c89910e20881c0ae282e7"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 23.1429,
+    "split": "valid"
+  },
+  {
+    "doc_id": "1538ace37470be0fecc96c74007c391e",
+    "title": "Chilean War of Independence",
+    "mode": "temporal",
+    "events": 16,
+    "temp": 188,
+    "causal": 5,
+    "sub": 16,
+    "src": "EVENT_08525ce2bf16da89440f988ebd490c00",
+    "dst": "EVENT_cc3b8870292aefd3cc3ea154d66bf344",
+    "gold_path": [
+      "EVENT_08525ce2bf16da89440f988ebd490c00",
+      "EVENT_58cc223e948c9d0d535e7bd07972c724",
+      "EVENT_53819e1cccdcc7474a6bfcb6b2e5a865",
+      "EVENT_cc3b8870292aefd3cc3ea154d66bf344"
+    ],
+    "gold_rels": [
+      "TEMP_BEFORE",
+      "TEMP_BEFORE",
+      "TEMP_BEFORE"
+    ],
+    "score": 35.8976,
+    "split": "valid"
+  },
+  {
+    "doc_id": "2084b46fc08bf2c4b652583017ab14a5",
+    "title": "Hurricane Gracie",
+    "mode": "temporal",
+    "events": 15,
+    "temp": 171,
+    "causal": 9,
+    "sub": 0,
+    "src": "EVENT_906c6fdd9001972b82ae1f4297b06580",
+    "dst": "EVENT_e371c38588b1715d42587f9990cb30de",
+    "gold_path": [
+      "EVENT_906c6fdd9001972b82ae1f4297b06580",
+      "EVENT_3bbeb4973239e82d5f0296f6d072b4ee",
+      "EVENT_45a3c261842a6bc25318859da8e3aacc",
+      "EVENT_e371c38588b1715d42587f9990cb30de"
+    ],
+    "gold_rels": [
+      "TEMP_CONTAINS",
+      "TEMP_BEFORE",
+      "TEMP_SIMULTANEOUS"
+    ],
+    "score": 35.7115,
+    "split": "valid"
+  },
+  {
+    "doc_id": "975f5915bc3597c70447e2a249dfc611",
+    "title": "Hurricane Ramon",
+    "mode": "causal",
+    "events": 20,
+    "temp": 220,
+    "causal": 43,
+    "sub": 0,
+    "src": "EVENT_6ec1730cb622ff1bec957e601c9ba4d6",
+    "dst": "EVENT_2a2aee8049b9a4dc49464c0c11bc3340",
+    "gold_path": [
+      "EVENT_6ec1730cb622ff1bec957e601c9ba4d6",
+      "EVENT_8f10c6b50db4394c8b6c9b24d7debbb6",
+      "EVENT_99ca3519213eac69d3b8baf73001132b",
+      "EVENT_2a2aee8049b9a4dc49464c0c11bc3340"
+    ],
+    "gold_rels": [
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION",
+      "CAUSAL_PRECONDITION"
+    ],
+    "score": 34.432,
+    "split": "valid"
+  }
+]

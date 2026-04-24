@@ -1,0 +1,33 @@
+name: private_benchmark
+dataset: techrisk_eventlogic_bench
+processed_dir: data/techrisk_eventlogic_bench
+query_file: data/techrisk_eventlogic_bench/queries.jsonl
+event_file: data/techrisk_eventlogic_bench/events.jsonl
+relation_file: data/techrisk_eventlogic_bench/relations.jsonl
+path_file: data/techrisk_eventlogic_bench/paths.jsonl
+source_file: data/techrisk_eventlogic_bench/sources.jsonl
+case_file: data/techrisk_eventlogic_bench/cases.jsonl
+methods:
+  plain_llm:
+    top_k_events: 0
+    top_k_paths: 0
+  standard_rag:
+    top_k_events: 10
+    top_k_paths: 0
+  ours:
+    top_k_events: 15
+    top_k_paths: 5
+    max_hops: 3
+    max_path_len: 5
+    min_relation_confidence: 0.5
+output_schema:
+  answer: string
+  rationale: string
+  uncertainty_label: enum
+  selected_path_event_ids: list[string]
+  selected_path_relation_ids: list[string]
+  notes: string
+splits:
+  train: train
+  dev: dev
+  test: test

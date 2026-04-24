@@ -1,0 +1,8 @@
+name: chronoqa_temporal_balanced_90_final
+manifest_file: data/public_eval_subsets/chronoqa_temporal_balanced_90_final/manifest.json
+raw_zip: data/raw/public/ChronoQA_raw_data.zip
+methods:
+  standard_rag: {}
+  temporalsort: {}
+  e2rag_reimpl: {}
+  ours: {}

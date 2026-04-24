@@ -1,0 +1,20 @@
+name: private_reimpl_baselines
+query_file: data/techrisk_eventlogic_bench/queries.jsonl
+event_file: data/techrisk_eventlogic_bench/events.jsonl
+relation_file: data/techrisk_eventlogic_bench/relations.jsonl
+methods:
+  rog_reimpl:
+    top_k_events: 10
+    max_path_len: 5
+  kg2rag_reimpl:
+    top_k_events: 10
+    max_hops: 2
+    max_path_len: 5
+  eventrag_reimpl:
+    top_k_events: 12
+    max_hops: 2
+    max_path_len: 5
+  e2rag_reimpl:
+    top_k_events: 12
+    max_hops: 3
+    max_path_len: 5

@@ -1,0 +1,10 @@
+# Private Benchmark Ablation Results
+
+| Variant                                   | Path Overlap F1 | Path Exact Match | Structure-First Score | Uncertainty Match |
+| ----------------------------------------- | --------------- | ---------------- | --------------------- | ----------------- |
+| Ours w/o seed organization                | 0.6574          | 0.2778           | 0.6515                | 0.8333            |
+| Ours w/o dual-bias reranking              | 0.5000          | 0.2222           | 0.5329                | 0.8333            |
+| Ours w/o exactness-oriented editing       | 0.7439          | 0.2222           | 0.6861                | 0.9444            |
+| Ours w/o counterfactual anchor correction | 0.9815          | 0.9444           | 0.9366                | 0.9444            |
+| Ours w/o post-hoc uncertainty control     | 1.0000          | 1.0000           | 0.9552                | 0.6111            |
+| Ours (full)                               | 1.0000          | 1.0000           | 0.9552                | 0.9444            |
