@@ -15,6 +15,7 @@ This anonymous package is designed as a paper-aligned verification package. It s
 - Redistribution of official third-party baseline code or full public raw dataset mirrors.
 - End-to-end rerunning of model-backed online inference without external backend credentials.
 - Claiming that the baseline adapters reproduce every hyperparameter, component, prompt, or engineering detail of the original systems.
+- Treating the compact private benchmark as a large-scale estimate of broad-domain event-reasoning performance.
 
 ## Rationale
 The repository is intentionally scoped to anonymous review. It exposes the materials needed to inspect the paper's benchmark protocol and reported results while avoiding redistribution of third-party code or raw public datasets.
