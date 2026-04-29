@@ -3,6 +3,33 @@
   "sources": 39,
   "events": 80,
   "relations": 107,
-  "queries": 97,
-  "paths": 97
+  "queries_total": 97,
+  "paths": 97,
+  "split_counts": {
+    "train": 40,
+    "dev": 21,
+    "test": 36
+  },
+  "test_split": {
+    "queries": 36,
+    "role": "held-out diagnostic evaluation for the private-benchmark main and ablation results",
+    "uncertainty_distribution": {
+      "certain": 27,
+      "insufficient_evidence": 1,
+      "partially_supported": 8
+    },
+    "difficulty_distribution": {
+      "easy": 5,
+      "hard": 18,
+      "medium": 13
+    },
+    "query_type_distribution": {
+      "cause_tracing": 5,
+      "counterfactual_risk": 11,
+      "impact_analysis": 6,
+      "policy_escalation_reasoning": 5,
+      "risk_identification": 5,
+      "timeline_reasoning": 4
+    }
+  }
 }
