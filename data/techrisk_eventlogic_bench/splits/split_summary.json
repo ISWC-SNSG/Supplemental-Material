@@ -1,0 +1,46 @@
+{
+  "benchmark": "TechRisk-EventLogic-Bench",
+  "total_queries": 97,
+  "split_counts": {
+    "train": 40,
+    "dev": 21,
+    "test": 36
+  },
+  "test_split_role": "Held-out diagnostic evaluation split used for the private-benchmark main and ablation results.",
+  "split_policy": "The revised held-out test split is stratified across cases, reasoning types, difficulty levels, risk dimensions, and uncertainty labels, while preserving all original gold answers, support paths, rationales, and uncertainty labels.",
+  "test_uncertainty_distribution": {
+    "certain": 27,
+    "insufficient_evidence": 1,
+    "partially_supported": 8
+  },
+  "test_query_type_distribution": {
+    "cause_tracing": 5,
+    "counterfactual_risk": 11,
+    "impact_analysis": 6,
+    "policy_escalation_reasoning": 5,
+    "risk_identification": 5,
+    "timeline_reasoning": 4
+  },
+  "test_difficulty_distribution": {
+    "easy": 5,
+    "hard": 18,
+    "medium": 13
+  },
+  "test_case_distribution": {
+    "CASE_ADVCTRL_001": 5,
+    "CASE_COVSEM_001": 3,
+    "CASE_CXMT_001": 3,
+    "CASE_EL25_001": 3,
+    "CASE_FOUNDRY_001": 4,
+    "CASE_HUAWEI_001": 3,
+    "CASE_IMPSEC_001": 4,
+    "CASE_SMIC_001": 4,
+    "CASE_VEU_001": 4,
+    "CASE_YMTC_001": 3
+  },
+  "notes": [
+    "Only split assignments are changed by the revised split.",
+    "Non-test instances are used for benchmark construction, protocol verification, and adapter-format checking, not for selecting test-specific thresholds.",
+    "All query identifiers in this manifest correspond to entries in data/techrisk_eventlogic_bench/queries.jsonl and queries.csv."
+  ]
+}
