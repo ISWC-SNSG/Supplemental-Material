@@ -6,7 +6,8 @@ This package is **not** intended to be a full open-source engineering release, a
 
 ## Repository contents
 
-- `data/techrisk_eventlogic_bench/`: released processed benchmark files for `TechRisk-EventLogic-Bench`.
+- `data/techrisk_eventlogic_bench/`: released processed benchmark files for `TechRisk-EventLogic-Bench`, including query-level split labels and explicit split manifests.
+- `data/techrisk_eventlogic_bench/splits/`: train/dev/test query-id manifests, including the 36-query held-out private test split.
 - `data/public_eval_subsets/`: fixed public-evaluation subset manifests used in the submission.
 - `src/`: reference implementation components for the proposed method and shared scoring utilities.
 - `baselines/`: benchmark-local baseline adapters used to document the controlled comparison protocol.
@@ -18,7 +19,7 @@ This package is **not** intended to be a full open-source engineering release, a
 
 ## Benchmark roles in the submission
 
-- `TechRisk-EventLogic-Bench` is the **main target-domain benchmark** used for the private-benchmark main results and ablation analysis.
+- `TechRisk-EventLogic-Bench` is the **main target-domain benchmark** used for the private-benchmark main results and ablation analysis. The released processed benchmark contains 97 annotated diagnostic queries over 10 technology-security cases. The private-benchmark main and ablation results are reported on a stratified held-out test split of 36 expert-verified queries; the remaining 61 non-test queries are used for benchmark construction, protocol verification, and adapter-format checking rather than for selecting test-specific thresholds.
 - `MAVEN-ERE Causal-Temporal 90-Document Evaluation Subset` is used **only** for controlled component-level validation of local support-structure construction and causal-temporal path selection.
 - `ChronoQA Temporal-Balanced 90-Example Final Evaluation Subset` is used **only** as a fixed diagnostic subset for validation of the temporal-sensitive component of path selection.
 
@@ -51,8 +52,8 @@ They preserve the central retrieval or graph-reasoning bias of the corresponding
 
 The following files in `artifacts/paper_results/` are the canonical source files aligned with the main reported tables in the paper:
 
-- `private_main_results_final.csv`: main results on the private benchmark.
-- `private_ablation_final.csv`: ablation study on the private benchmark.
+- `private_main_results_final.csv`: main results on the 36-query held-out private benchmark test split.
+- `private_ablation_final.csv`: ablation study on the 36-query held-out private benchmark test split.
 - `maven_ere_90doc_final_summary.csv`: reported summary on the MAVEN-ERE 90-document subset.
 - `chronoqa_90_final_summary_overall.csv`: reported results on the balanced ChronoQA 90-example final subset.
 
@@ -74,6 +75,11 @@ pip install -e .
 - Use `docs/private_metric_protocol.md` and `docs/chronoqa_metric_protocol.md` for metric definitions.
 - Use `docs/REPRODUCIBILITY_SCOPE.md` for what this anonymous package does and does not aim to reproduce.
 - Full raw mirrors of the original public datasets and official third-party baseline code are **not** redistributed in this repository.
+
+## Anonymous review note
+
+This repository is prepared for anonymous peer review only. Persistent public release endpoints, final author metadata, and final licensing statements can be attached after the review stage.
+
 
 ## Anonymous review note
 
