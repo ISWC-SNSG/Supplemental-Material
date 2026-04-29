@@ -7,6 +7,11 @@ relation_file: data/techrisk_eventlogic_bench/relations.jsonl
 path_file: data/techrisk_eventlogic_bench/paths.jsonl
 source_file: data/techrisk_eventlogic_bench/sources.jsonl
 case_file: data/techrisk_eventlogic_bench/cases.jsonl
+split_manifest_dir: data/techrisk_eventlogic_bench/splits
+expected_split_counts:
+  train: 40
+  dev: 21
+  test: 36
 methods:
   plain_llm:
     top_k_events: 0
