@@ -1,12 +1,16 @@
 name: private_reimpl_baselines
+
 query_file: data/techrisk_eventlogic_bench/queries.jsonl
 event_file: data/techrisk_eventlogic_bench/events.jsonl
 relation_file: data/techrisk_eventlogic_bench/relations.jsonl
+path_file: data/techrisk_eventlogic_bench/paths.jsonl
 split_manifest_dir: data/techrisk_eventlogic_bench/splits
+
 expected_split_counts:
   train: 40
   dev: 21
   test: 36
+
 methods:
   rog_reimpl:
     top_k_events: 10
