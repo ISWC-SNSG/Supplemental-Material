@@ -19,9 +19,10 @@ This package is **not** intended to be a full open-source engineering release, a
 
 ## Benchmark roles in the submission
 
-- `TechRisk-EventLogic-Bench` is the **main target-domain benchmark** used for the private-benchmark main results and ablation analysis. The released processed benchmark contains 97 annotated diagnostic queries over 10 technology-security cases. The private-benchmark main and ablation results are reported on a stratified held-out test split of 36 expert-verified queries; the remaining 61 non-test queries are used for benchmark construction, protocol verification, and adapter-format checking rather than for selecting test-specific thresholds.
-- `MAVEN-ERE Causal-Temporal 90-Document Evaluation Subset` is used **only** for controlled component-level validation of local support-structure construction and causal-temporal path selection.
-- `ChronoQA Temporal-Balanced 90-Example Final Evaluation Subset` is used **only** as a fixed diagnostic subset for validation of the temporal-sensitive component of path selection.
+- `TechRisk-EventLogic-Bench` is the main target-domain benchmark used for the private-benchmark main results and ablation analysis. The released processed benchmark contains 97 annotated diagnostic queries over 10 technology-security cases.
+- The private-benchmark main and ablation results are reported on a stratified held-out test split of 36 expert-verified queries; the remaining 61 non-test queries are used for benchmark construction, protocol verification, and adapter-format checking rather than for selecting test-specific thresholds.
+- `MAVEN-ERE Causal-Temporal 90-Document Evaluation Subset` is used only for controlled component-level validation of local support-structure construction and causal-temporal path selection.
+- `ChronoQA Temporal-Balanced 90-Example Final Evaluation Subset` is used only as a fixed diagnostic subset for validation of the temporal-sensitive component of path selection.
 
 The reported ChronoQA results use the metric protocol documented in `docs/chronoqa_metric_protocol.md`; the private-benchmark metrics are defined in `docs/private_metric_protocol.md`.
 
@@ -75,11 +76,6 @@ pip install -e .
 - Use `docs/private_metric_protocol.md` and `docs/chronoqa_metric_protocol.md` for metric definitions.
 - Use `docs/REPRODUCIBILITY_SCOPE.md` for what this anonymous package does and does not aim to reproduce.
 - Full raw mirrors of the original public datasets and official third-party baseline code are **not** redistributed in this repository.
-
-## Anonymous review note
-
-This repository is prepared for anonymous peer review only. Persistent public release endpoints, final author metadata, and final licensing statements can be attached after the review stage.
-
 
 ## Anonymous review note
 
