@@ -2,20 +2,19 @@
 
 The files in this directory are aligned to the manuscript tables used in the anonymous submission.
 
-The canonical source files for the four main reported tables are:
+## Canonical source files
 
 - `private_main_results_final.csv`
-- `private_ablation_final.csv` (with `private_ablation_filled.csv` kept as a backward-compatible copy)
+- `private_ablation_final.csv`
 - `maven_ere_90doc_final_summary.csv`
 - `chronoqa_90_final_summary_overall.csv`
 
 ## Verification scope
 
-The private-benchmark main and ablation results are aligned with the 36-query held-out private test split documented in `data/techrisk_eventlogic_bench/splits/` and `artifacts/paper_results/private_test_split_summary.md`.
+The private-benchmark main and ablation results are aligned with the 36-query held-out private test split documented in:
 
-The CSV files in this directory are canonical source files for verifying the reported table values. Private-benchmark metric definitions, including the instance-level Grounded Answer Score and Structure-First Score, are documented in `docs/private_metric_protocol.md`. When per-example prediction files are available, the evaluation scripts recompute the corresponding summaries from those files. For artifacts that are provided only as paper-aligned summaries, the repository labels them as reported-summary artifacts rather than full inference reproductions.
+- `data/techrisk_eventlogic_bench/splits/split_summary.json`
+- `data/techrisk_eventlogic_bench/splits/test_query_manifest.csv`
+- `artifacts/paper_results/private_test_split_summary.md`
 
-- ChronoQA results can be recomputed from `chronoqa_90_final_per_task.csv` using `evaluation/scripts/18_evaluate_chronoqa_90_final.py`.
-- MAVEN-ERE results are released as a fixed subset manifest plus paper-aligned reported-summary artifacts; `evaluation/scripts/17_write_maven_ere_reported_summary.py` materializes the reported summary and subset mode counts for inspection.
-
-All values, method names, and decimal formatting in the canonical files match the manuscript tables.
+These files are intended as paper-aligned verification artifacts. They support inspection of the reported table values and benchmark split definitions, but they are not a full model-backed reproduction of every inference run.

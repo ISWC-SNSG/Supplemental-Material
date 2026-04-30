@@ -1,5 +1,5 @@
 Method,Temporal Order Accuracy,Anchor Accuracy,Support Reordering Accuracy
 Standard RAG,0.4122,0.3111,0.2222
 TemporalSort,0.6159,0.5556,0.4333
-E$^2$RAG (reimpl.),0.9430,0.9111,0.8889
+E^2RAG (reimpl.),0.9430,0.9111,0.8889
 Ours,0.9467,0.9222,0.9000
