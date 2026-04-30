@@ -1,3 +1,5 @@
+# Paper-Aligned Verification Guide
+
 This document describes the verification workflow for the anonymous review package. The package supports inspection of released benchmark files, fixed public-subset manifests, metric definitions, and paper-aligned result artifacts. It is not a full engineering reproduction of all model-backed inference runs or official third-party baseline systems.
 
 ## 1. Environment
@@ -17,15 +19,6 @@ The processed release files of `TechRisk-EventLogic-Bench` are included in:
 data/techrisk_eventlogic_bench/
 ```
 
-The released benchmark contains 97 annotated diagnostic queries. The private-benchmark main and ablation results use the 36-query held-out test split defined by:
-
-```text
-data/techrisk_eventlogic_bench/queries.jsonl
-data/techrisk_eventlogic_bench/queries.csv
-data/techrisk_eventlogic_bench/splits/test_query_ids.txt
-data/techrisk_eventlogic_bench/splits/test_query_manifest.csv
-```
-
 To regenerate derived task files from the included processed benchmark, use:
 
 ```bash
@@ -39,11 +32,11 @@ Metric definitions for the private benchmark, including the instance-level Groun
 If per-example prediction files are available, score them with:
 
 ```bash
-python evaluation/scripts/09_score_private.py --predictions <predictions.jsonl> --config configs/private_benchmark.yaml --reports-dir outputs/reports
-python evaluation/scripts/11_make_tables.py --reports-dir outputs/reports
+python evaluation/scripts/09_score_private.py --predictions <predictions.jsonl>
+python evaluation/scripts/11_make_tables.py --reports-dir <reports_dir>
 ```
 
-The repository also includes canonical paper-aligned result files in `artifacts/paper_results/` for verifying the reported table values. The private result artifacts are aligned with the 36-query held-out private test split.
+The repository also includes canonical paper-aligned result files in `artifacts/paper_results/` for verifying the reported table values.
 
 ## 4. Benchmark-local baseline adapters
 
@@ -56,7 +49,7 @@ python evaluation/scripts/16_run_private_reimpl_baselines.py --config configs/pr
 python evaluation/scripts/16_run_private_reimpl_baselines.py --config configs/private_reimpl_baselines.yaml --method e2rag_reimpl --split test --output outputs/private_e2rag_reimpl_test.jsonl
 ```
 
-The `--split test` option selects the 36-query held-out private test split. These are benchmark-local adapters, not official implementations of the cited systems. See `baseline_adapter_notes.md`.
+These are benchmark-local adapters, not official implementations of the cited systems. See `baseline_adapter_notes.md`.
 
 ## 5. Public-benchmark subset artifacts
 
@@ -88,6 +81,10 @@ Canonical paper-aligned source files:
 - `artifacts/paper_results/private_ablation_final.csv`
 - `artifacts/paper_results/maven_ere_90doc_final_summary.csv`
 - `artifacts/paper_results/chronoqa_90_final_summary_overall.csv`
+
+## 8. Raw public data note
+
+The repository does not redistribute full raw mirrors of MAVEN-ERE or ChronoQA. Please see `data/raw/public/README.md` for instructions if you want to obtain the original public datasets from their official sources.
 
 ## 8. Raw public data note
 
