@@ -1,11 +1,10 @@
 # Reproducibility Scope
 
-This anonymous package is designed as a paper-aligned verification package. It supports inspection of the benchmark files, fixed subset manifests, metric definitions, reported result artifacts, and evaluation utilities used in the submission.
+This anonymous package is designed as a paper-aligned verification package. It supports inspection of the benchmark files, fixed subset manifests, metric definitions, reported result artifacts, prompt/configuration files, and evaluation utilities used in the submission.
 
 ## In scope
 
 - Inspecting the released processed private benchmark files.
-- Inspecting the query-level train/dev/test split manifests, including the 36-query held-out private test split.
 - Inspecting fixed public-subset manifests for MAVEN-ERE and ChronoQA.
 - Verifying canonical table source files in `artifacts/paper_results/`.
 - Recomputing ChronoQA summary metrics from the released per-example prediction file.
@@ -22,4 +21,4 @@ This anonymous package is designed as a paper-aligned verification package. It s
 
 ## Rationale
 
-The repository is intentionally scoped to anonymous review. It exposes the materials needed to inspect the paper's benchmark protocol and reported results while avoiding redistribution of third-party code or raw public datasets. The 36-query held-out private test split is intended for compact expert-guided diagnostic evaluation, not for broad-domain statistical claims.
+The repository is intentionally scoped to anonymous review. It exposes the materials needed to inspect the paper's benchmark protocol and reported results while avoiding redistribution of third-party code, model credentials, or raw public datasets.
